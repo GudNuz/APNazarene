@@ -15,7 +15,7 @@
             Return "Avon Park Nazarene Church"
         End If
         If AttributeName = "SiteNameShort" Then
-            Return "Nazarene Life"
+            Return "AP NAZ"
         End If
 
         ' Site Description

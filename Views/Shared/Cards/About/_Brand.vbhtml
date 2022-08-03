@@ -11,11 +11,7 @@ End Code
             
             <!-- Show  Big Logo -->
             <img src=@BigLogo class="img-fluid biglogo" alt="Responsive Big Logo" />
-
-            <!-- Site Name -->
-            @*<h2 class="text-break font-weight-light" style="color:darkgreen; text-shadow: 1px 1px 1px gray, 0 0 1px gray;">Avon Park</h2> 
-            <h2 class="text-break font-weight-light" style="color: darkgreen; text-shadow: 1px 1px 1px gray, 0 0 1px gray;">Nazarene Church</h2>*@                
-            
+                        
         </div>
     </div>
 

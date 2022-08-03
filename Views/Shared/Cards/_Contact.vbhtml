@@ -1,4 +1,4 @@
-﻿@code 
+﻿@code
 
     Dim siteName As String = SiteHelpers.GetSiteInfo("SiteName")
     Dim siteGoogleMapURL As String = SiteHelpers.GetSiteInfo("SiteGoogleMapURL")
@@ -17,32 +17,50 @@ End Code
 <div class="text-center py-0">
 
     <!-- Please Contact us Text -->
-    <div class="pt-4">
+    @*<div class="pt-4">
         <h3 class="font-weight-bold">Contact Us</h3>
-    </div>
+    </div>*@
 
     <!-- Contact Info box -->
     <div class="card mx-auto border-dark mb-3" style="max-width: 24rem;">
-        <div class="card-header w-100 text-center"><h6><img class="smalllogo fw-bold" src=@smallLogo alt="brand logo">@siteName</h6></div>
+        <div class="card-header w-100 text-center bg-secondary">
+            <h5>
+                <img class="smalllogo fw-bold" src=@smallLogo alt="brand logo"><a href="http://apnazarene.org/" class="nav-link site-logo active text-white" target="_blank"> @siteName</a>
+            </h5>
+        </div>
         <div class="card-body text-dark">
+            <div class="text-left pb-2">
 
-            <p>Our church is filled with loving, caring people. For more information about us, or if you need to reach somebody for prayer, please use this form or call 863-453-4851. Include your email, and your phone number if you would like a return call.</p>
-            <p>Our church family is ready to assist you on your spiritual journey.</p>
-            <p>God bless you.</p>
+                <h3 class="px-0 py-2">Our Church is filled with<br />caring and loving people.</h3>
+                <h2 class="px-0 pb-2">Please Contact Us</h2>
+
+                <p>For more information about us,<br />or if you need to reach someone for prayer,<br />please email or call:</p>
+                
+                <!-- Quick Contact Info -->
+                <div class=" pb-2">
+                    <h5>@phone1 <br/><a class="text-black" style="font-size: 18px;" href="mailto: @siteEmailContact">@siteEmailContact</a></h5>                   
+                </div>
+
+                <p>We're ready to assist on your spiritual journey.</p>
+
+            </div>  
+
+            <!-- Salutations -->
+            <h3 class="pt-2 pb-3 text-secondary">God bless you!</h3>
 
             <!-- Contacts -->
-            <div class="card-title text-start fw-bold p-0">Lead Pastor:</div>
-            <h5 class="card-title text-start fw-bolder pb-2">Curt Napier</h5>           
+            <div class="px-5">
+                <div class="card-title text-start fw-bold p-0">Lead Pastor:</div>
+                <h5 class="card-title text-start fw-bolder pb-2">Curt Napier</h5>
 
-            <div class="card-title text-start fw-bold p-0">Associate Pastor:</div>
-            <h5 class="card-title text-start fw-bolder pb-2">Patricia Bridewell</h5>
+                <div class="card-title text-start fw-bold p-0">Associate Pastor:</div>
+                <h5 class="card-title text-start fw-bolder pb-2">Patricia Bridewell</h5>
 
-
-            <div class="card-text text-start">
-                <p>@address1<br />@address2</p>
-                <p>@phone1</p>
-                <p class="py-1"><a class="text-black" style="font-size: 12px;" href="mailto: @siteEmailContact">@siteEmailContact</a></p>
+                <div class="card-text text-start">
+                    <p>@address1<br />@address2</p>
+                </div>
             </div>
+            
 
             <!-- Buttons -->
             <div class="py-2">
@@ -64,5 +82,4 @@ End Code
             </div>
         </div>
     </div>
-
 </div>

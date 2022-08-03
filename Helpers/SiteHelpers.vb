@@ -74,7 +74,7 @@
             Return "/Content/Catagories/Svg/AP-Logo-02.svg"
         End If
         If AttributeName = "SmallLogo" Then
-            Return "/Content/Catagories/Svg/Bird_white.svg"
+            Return "/Content/Catagories/Svg/Bird-White.svg"
         End If
         If AttributeName = "PageImage_About" Then
             Return "https:/illustrate.net/APNazarene/Content/Catagories/PageImages/900x800-image-01.jpg"

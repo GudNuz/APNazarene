@@ -32,8 +32,8 @@
     Dim smallLogo = SiteHelpers.GetSiteInfo("SmallLogo")
 End Code
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom box-shadow mb-3 px-2">
-
+<nav class="navbar navbar-expand-lg navbar-dark border-bottom box-shadow mb-sm-0 px-sm-0 mb-lg-3 px-lg-2" style="background-color: #4A4B4C;">
+    <!--mb-sm-0 px-sm-0-->
     <div class="d-flex flex-grow-1">
 
         <!-- Hidden Space -->
@@ -45,7 +45,7 @@ End Code
         <a class="navbar-brand d-none d-lg-inline-block" href="~/Info/About"><img class="smalllogo" src=@smallLogo alt="brand logo">@siteName</a>
 
         <!-- Set to show on sm -->
-        <a class="navbar-brand d-lg-none d-inline-block w-100" href="~/Info/About">@siteNameShort<img class="smalllogo2" src=@smallLogo alt="brand logo"></a>       
+        <a class="navbar-brand d-lg-none d-inline-block w-100" href="~/Info/About">@siteNameShort<img class="smalllogo2" src=@smallLogo alt="brand logo"></a>
 
         <!-- Toggle Button -->
         <div class="w-0 text-left ">
@@ -84,33 +84,33 @@ End Code
 
         @*@If Request.IsAuthenticated Then
 
-            @Using Html.BeginForm("LogOff", "Account", FormMethod.Post, New With {.id = "logoutForm", .class = "navbar-right"})
+                @Using Html.BeginForm("LogOff", "Account", FormMethod.Post, New With {.id = "logoutForm", .class = "navbar-right"})
 
-                @Html.AntiForgeryToken()
+                    @Html.AntiForgeryToken()
+
+                    @<ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Manage/Index">Manage</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+                        </li>
+                    </ul>
+
+                End Using
+
+            Else
 
                 @<ul class="nav navbar-nav navbar-right">
                     <li class="nav-item">
-                        <a class="nav-link" href="Manage/Index">Manage</a>
+                        <a class="nav-link" href="~/Account/Register">Register</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+                        <a class="nav-link" href="~/Account/Login">Log In</a>
                     </li>
                 </ul>
 
-            End Using
-
-        Else
-
-            @<ul class="nav navbar-nav navbar-right">
-                <li class="nav-item">
-                    <a class="nav-link" href="~/Account/Register">Register</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="~/Account/Login">Log In</a>
-                </li>
-            </ul>
-
-        End If*@
+            End If*@
 
     </div>
 

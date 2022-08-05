@@ -177,76 +177,217 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Catagories\Gallery\Pictures\01\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\Pictures\02\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\Pictures\03\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\Pictures\04\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\Pictures\05\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\Pictures\06\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\Pictures\07\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\Videos\01\000002.mp4" />
-    <Content Include="Content\Catagories\Gallery\Videos\01\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\Videos\01\000001.mp4" />
-    <Content Include="Content\Catagories\Gallery\Videos\02\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\Videos\03\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\WebArt\Eps\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\WebArt\Jpg\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\WebArt\Png\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000001.svg" />
-    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000002.svg" />
-    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000003.svg" />
-    <Content Include="Content\Catagories\Gallery\WebArt\Svg\placeholder.txt" />
-    <Content Include="Content\Catagories\Gallery\WebArt\Zip\placeholder.txt" />
+    <Content Include="Content\Catagories\Gallery\Pictures\01\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\Pictures\02\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\Pictures\03\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\Pictures\04\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\Pictures\05\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\Pictures\06\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\Pictures\07\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\Videos\01\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\Videos\01\000001.mp4">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\Videos\02\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\Videos\03\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Jpg\000001.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Jpg\000002.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Jpg\000003.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Jpg\000004.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Jpg\000005.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Jpg\000006.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Jpg\000007.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Jpg\000008.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Jpg\000009.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Jpg\000010.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Jpg\000011.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Jpg\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Png\000001.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Png\000002.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Png\000003.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Png\000004.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Png\000005.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Png\000006.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Png\000007.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Png\000008.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Png\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000001.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000002.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000003.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000004.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000005.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000006.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000007.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000008.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000009.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000010.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000011.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000012.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\000013.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Svg\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Gallery\WebArt\Zip\placeholder.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Catagories\Icons\APNazarene\favicon.ico" />
     <Content Include="Content\Catagories\Icons\APNazarene\favicon.v1.ico" />
-    <Content Include="Content\Catagories\LinkShares\1200x630-Linkshare-01.jpg" />
+    <Content Include="Content\Catagories\LinkShares\1200x630-Linkshare-01.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Catagories\Logos\BlueSun.svg" />
     <Content Include="Content\Catagories\PageImages\900x800-image-01.jpg" />
     <Content Include="Content\Catagories\PageImages\hate.gif" />
-    <Content Include="Content\Catagories\Svg\AP-Logo-02.svg" />
+    <Content Include="Content\Catagories\Svg\AP-Logo-02.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Catagories\Svg\Artwork.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Catagories\Svg\backspace.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Svg\Bird-Black.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Svg\Bird-White.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Catagories\Svg\BlueSun.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Catagories\Svg\Cross.svg" />
+    <Content Include="Content\Catagories\Svg\Cross.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Catagories\Svg\FB-Home.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Catagories\Svg\FB-Square.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Catagories\Svg\Fundraising.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Catagories\Svg\Google-Square.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Catagories\Svg\Links.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Catagories\Svg\Logo1.svg" />
+    <Content Include="Content\Catagories\Svg\Logo1.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Catagories\Svg\Merchandise.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Catagories\Svg\People.svg" />
+    <Content Include="Content\Catagories\Svg\People.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Catagories\Svg\Pictures.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Catagories\Svg\Schedule.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Catagories\Svg\Video.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Catagories\Svg\Videos.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Svg\Jesus-Fish.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Css\bootstrap.min.css.map" />
+    <Content Include="Artwork\Church of the Nazarene Brand Guide_EN.pdf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

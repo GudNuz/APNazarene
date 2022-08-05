@@ -59,6 +59,9 @@ End Code
     <link rel="apple-touch-icon" type="image/pgn" href="~/Content/Images/Site/Catagories/Icons/APNazarene/android-chrome-192x192.png" />
     <link rel="apple-touch-icon" type="image/pgn" sizes="180x180" href="~/Content/Catagories/Icons/APNazarene/apple-touch-icon.png">
 
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300, 400, 500, 600' rel='stylesheet' type='text/css'>
+
     <!-- Link Share Setup -->
     <link rel="canonical" href="@canonical" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />

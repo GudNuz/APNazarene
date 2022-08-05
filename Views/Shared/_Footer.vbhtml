@@ -38,7 +38,7 @@
     End If
 
 End Code
-<footer class="navbar navbar-dark bg-dark border-top box-shadow pt-0" role="contentinfo" aria-label="Site footer">
+<footer class="navbar navbar-dark border-top box-shadow pt-0" style="background-color: #4A4B4C;" role="contentinfo" aria-label="Site footer">
 
     <div class="flex-grow-0 text-right" style="width: 90%;">
 

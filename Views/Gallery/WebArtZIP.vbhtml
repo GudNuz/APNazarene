@@ -1,10 +1,10 @@
 ﻿@Code
 
     Dim catagory As String = "WebArt"
-    Dim group As String = "eps"
+    Dim group As String = "zip"
     Dim extension As String = ".zip"
 
-    Dim folder As String = "http://Illustrate.net/APNazarene/Content/Catagories/Gallery/" + catagory + "/" + group + "/"
+    Dim folder As String = "/Content/Catagories/Gallery/" + catagory + "/" + group + "/"
     Dim filecount As Integer = SiteHelpers.ImageCount("Gallery/" + catagory + "/" + group + "/", extension)
 
 End Code
@@ -19,7 +19,7 @@ End Code
             <img class="cardimage" src="~/Content/Catagories/Svg/Artwork.svg" />
             <span class="text-dark">@catagory:</span><span class="text-light fs-4"> .Zip</span>
         </h3>
-        <p class="text-center text-light">Master Bulldog .Zip files for printing.</p>
+        <p class="text-center text-light">Master .Zip files for printing.</p>
         <p class="text-center text-light">Contains .AI .EPS, .PDF, .SVG, and .PNG formats.</p>
 
         <!-- Button Row-->
@@ -70,14 +70,14 @@ End Code
             <div class="col-12 py-1">
                 <a onclick="download1()" style="margin-right: auto; margin-left: auto; width: 280px; border: solid 2px; border-left-color: dimgray; border-top-color: dimgray;" class="nav-link bg-light text-center text-black py-2 rounded" id="newTab" href="#">
 
-                    <img style="height: 160px;" src="~/Content/Catagories/Gallery/WebArt/Zip/BD-Logo-Master-Black.svg" /> <h6>Download<br />BD-Logo-Master-Black.zip</h6>
+                    <img style="height: 160px;" src="~/Content/Catagories/Gallery/WebArt/Zip/Logo-Master-Black.svg" /> <h6>Download<br />Logo-Master-Black.zip</h6>
                 </a>
             </div>
 
             <div>
                 <a onclick="download2()" style="margin-right: auto; margin-left: auto; width: 280px; border: solid 2px; border-left-color: dimgray; border-top-color: dimgray;" class="nav-link bg-light text-center text-black py-2 rounded" href="#">
 
-                    <img style="height: 160px;" src="~/Content/Catagories/Gallery/WebArt/Zip/BD-Logo-Master-White.svg" /> <h6>Download<br />BD-Logo-Master-White.zip</h6>
+                    <img style="height: 160px;" src="~/Content/Catagories/Gallery/WebArt/Zip/Logo-Master-White.svg" /> <h6>Download<br />Logo-Master-White.zip</h6>
                 </a>
             </div>
 

@@ -10,7 +10,8 @@ body {
     padding-top: 0;
     margin: 0;
     font-size: 14px;
-    font-family: "Knockout 31 4r", HelveticaNeue-CondensedBold, Helvetica, Arial, sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
     text-rendering: optimizeLegibility;
 }
 
@@ -25,7 +26,7 @@ code {
 
 .btn-primary {
     color: #fff;
-    background-color: #60605F;
+    background-color: rgb(75, 76, 77);
     border-color: #3A3A3A;
 }
 
@@ -96,7 +97,7 @@ footer {
     height: 200px;
 }
 
-/* Define Gradient Heading CSS ( used in TOS and Privacy */
+/* Define Gradient Heading CSS (used in TOS and Privacy) */
 #myBox {
     padding: 8px;
     margin-bottom: 7px;
@@ -118,6 +119,40 @@ footer {
     font-size: 16px;
 }
 
+/*Church Contact Page*/
+.ourChurch-box {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 14px;
+    background-color: #265039;
+    color: white;
+    border:none;
+}
+
+    .ourChurch-box:hover,
+    .ourChurch-box:focus,
+    .ourChurch-box:active {
+        background-color: #4DAF7C;
+        color: #4a4b4c;
+    }
+
+    .ourChurch-box a {
+        font-weight: 600;
+        color: white;
+        font-size: 48px;
+    }
+
+        .ourChurch-box a:hover,
+        .ourChurch-box a:focus,
+        .ourChurch-box a:active {
+            color: #4a4b4c;
+        }
+        
+/*Old*/
 #myBtn {
     display: none;
     position: fixed;
@@ -138,7 +173,7 @@ footer {
         background-color: #555;
     }
 
-
+/*Terms command Policy page stuff*/
 .goldGradient {
     background: linear-gradient(to right, #60605F 0%, transparent 100%);
     padding-top: 15px;

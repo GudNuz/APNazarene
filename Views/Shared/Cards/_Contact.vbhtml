@@ -14,53 +14,47 @@
 
 End Code
 
-<div class="text-center py-0">
-
-    <!-- Please Contact us Text -->
-    @*<div class="pt-4">
-        <h3 class="font-weight-bold">Contact Us</h3>
-    </div>*@
+<div class="text-center p-0">
 
     <!-- Contact Info box -->
-    <div class="card mx-auto border-dark mb-3" style="max-width: 24rem;">
-        <div class="card-header w-100 text-center bg-secondary">
-            <h5>
-                <img class="smalllogo fw-bold" src=@smallLogo alt="brand logo"><a href="http://apnazarene.org/" class="nav-link site-logo active text-white" target="_blank"> @siteName</a>
-            </h5>
-        </div>
-        <div class="card-body text-dark">
-            <div class="text-left pb-2">
+    <div class="card mx-auto border-dark m-0 p-0 rounded-0" style="max-width: 24rem;">
+        
+        <div class="card-body text-dark m-0 p-0">
 
-                <h3 class="px-0 py-2">Our Church is filled with<br />caring and loving people.</h3>
-                <h2 class="px-0 pb-2">Please Contact Us</h2>
+            <!-- Our Church -->
+            <div class="ourChurch-box px-0 py-2">
+                <a href="http://apnazarene.org/" class="nav-link text-decoration-underline" target="_blank">Our Church</a>
+                <p>is filled with<br />caring and loving people.</p>
+            </div>
 
-                <p>For more information about us,<br />or if you need to reach someone for prayer,<br />please email or call:</p>
-                
-                <!-- Quick Contact Info -->
-                <div class=" pb-2">
-                    <h5>@phone1 <br/><a class="text-black" style="font-size: 18px;" href="mailto: @siteEmailContact">@siteEmailContact</a></h5>                   
-                </div>
+            <!-- Please Contact Us -->
+            <h2 class="px-0 pb-2">Please Contact Us</h2>
 
-                <p>We're ready to assist on your spiritual journey.</p>
+            <!--  Need Help -->
+            <p>If you need to reach someone for prayer,<br />or more information about us,<br />please email or call:</p>
 
-            </div>  
+            <!-- Quick Contact Info -->
+            <div class=" pb-2">
+                <h5>@phone1 <br /><a class="text-black" style="font-size: 18px;" href="mailto: @siteEmailContact">@siteEmailContact</a></h5>
+            </div>
 
-            <!-- Salutations -->
-            <h3 class="pt-2 pb-3 text-secondary">God bless you!</h3>
+            <!-- We're Redy!-->
+            <p>We're ready to assist on your spiritual journey.</p>                   
 
             <!-- Contacts -->
-            <div class="px-5">
-                <div class="card-title text-start fw-bold p-0">Lead Pastor:</div>
-                <h5 class="card-title text-start fw-bolder pb-2">Curt Napier</h5>
+            <div class="px-5 pt-3 border-top">
+                <div class="px-5">
+                    <div class="card-title text-start fw-bold p-0">Lead Pastor:</div>
+                    <h5 class="card-title text-start fw-bolder pb-2">Curt Napier</h5>
 
-                <div class="card-title text-start fw-bold p-0">Associate Pastor:</div>
-                <h5 class="card-title text-start fw-bolder pb-2">Patricia Bridewell</h5>
+                    <div class="card-title text-start fw-bold p-0">Associate Pastor:</div>
+                    <h5 class="card-title text-start fw-bolder pb-2">Patricia Bridewell</h5>
 
-                <div class="card-text text-start">
-                    <p>@address1<br />@address2</p>
+                    <div class="card-text text-start">
+                        <p>@address1<br />@address2</p>
+                    </div>
                 </div>
             </div>
-            
 
             <!-- Buttons -->
             <div class="py-2">
@@ -80,6 +74,10 @@ End Code
                 </div>
 
             </div>
+
+            <!-- Salutations -->
+            <h2 class="pt-2 pb-3 font-weight-bold" style="font-size: 36px; color:#4A4B4C;">God bless you!</h2>
+
         </div>
     </div>
 </div>

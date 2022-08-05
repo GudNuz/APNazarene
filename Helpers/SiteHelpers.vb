@@ -15,7 +15,7 @@
             Return "Avon Park Nazarene Church"
         End If
         If AttributeName = "SiteNameShort" Then
-            Return "AP NAZ"
+            Return "Avon Park Naz"
         End If
 
         ' Site Description
@@ -38,7 +38,7 @@
             Return "707 W Main Street - Box 1118"
         End If
         If AttributeName = "Address2" Then
-            Return "Avon Park, Forida 33826"
+            Return "Avon Park, Florida 33826"
         End If
 
         ' Phone

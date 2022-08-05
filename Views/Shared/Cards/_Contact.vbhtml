@@ -17,33 +17,33 @@ End Code
 <div class="text-center p-0">
 
     <!-- Contact Info box -->
-    <div class="card mx-auto border-dark m-0 p-0 rounded-0" style="max-width: 24rem;">
-        
+    <div class="card mx-auto border-dark m-0 p-0 rounded-0" style="max-width: 24rem;">        
         <div class="card-body text-dark m-0 p-0">
 
             <!-- Our Church -->
             <div class="ourChurch-box px-0 py-2">
-                <a href="http://apnazarene.org/" class="nav-link text-decoration-underline" target="_blank">Our Church</a>
+                <a href="http://apnazarene.org/" class="nav-link text-decoration-underline" target="_blank"><img CLASS="smalllogo" src="~/Content/Catagories/Svg/Cross-White.svg" />Our Church
+                </a>
                 <p>is filled with<br />caring and loving people.</p>
             </div>
 
             <!-- Please Contact Us -->
-            <h2 class="px-0 pb-2">Please Contact Us</h2>
+            <h2 class="px-0 pb-2 pt-2">Please Contact Us</h2>
 
             <!--  Need Help -->
             <p>If you need to reach someone for prayer,<br />or more information about us,<br />please email or call:</p>
 
             <!-- Quick Contact Info -->
-            <div class=" pb-2">
+            <div class="pb-1 border-bottom">
                 <h5>@phone1 <br /><a class="text-black" style="font-size: 18px;" href="mailto: @siteEmailContact">@siteEmailContact</a></h5>
-            </div>
 
-            <!-- We're Redy!-->
-            <p>We're ready to assist on your spiritual journey.</p>                   
+                <!-- We're Redy!-->
+                <div class="pt-1 pb-1" style="color: #265039; font-size: 16px; font-weight:600;">We're ready to assist on your spiritual journey.</div>
+
+            </div>                               
 
             <!-- Contacts -->
-            <div class="px-5 pt-3 border-top">
-                <div class="px-5">
+            <div class="ms-5 ps-5 pt-3">                
                     <div class="card-title text-start fw-bold p-0">Lead Pastor:</div>
                     <h5 class="card-title text-start fw-bolder pb-2">Curt Napier</h5>
 
@@ -52,12 +52,11 @@ End Code
 
                     <div class="card-text text-start">
                         <p>@address1<br />@address2</p>
-                    </div>
-                </div>
+                    </div>               
             </div>
 
             <!-- Buttons -->
-            <div class="py-2">
+            <div class="py-2 pt-3 border-top">
 
                 <!-- Facebook Page Button -->
                 <div class="py-1">
@@ -76,7 +75,7 @@ End Code
             </div>
 
             <!-- Salutations -->
-            <h2 class="pt-2 pb-3 font-weight-bold" style="font-size: 36px; color:#4A4B4C;">God bless you!</h2>
+            <h2 class="pt-2 pb-3 font-weight-bold" style="font-size: 36px; color: #265039;">God bless you!</h2>
 
         </div>
     </div>

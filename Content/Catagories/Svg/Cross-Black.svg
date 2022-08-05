@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 345 525" style="enable-background:new 0 0 345 525;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;fill:none;}
+	.st1{display:none;}
+	.st2{display:none;fill:#FFFFFF;}
+</style>
+<rect id="_Transparent_Rectangle_" x="-127.5" y="-37.5" class="st0" width="600" height="600"/>
+<path id="Sillowette" class="st1" d="M65.6,487.5h101.3c26.2,22.5,61.9,37.5,99.4,37.5c82.5,0,150-67.5,150-150
+	c0-35.6-3.8-46.9-18.8-80.6V187.5V75c0-20.6-16.9-37.5-37.5-37.5h-75V0h-37.5v37.5h-150V0H60v37.5h-75c-20.6,0-37.5,16.9-37.5,37.5
+	v375c0,20.6,16.9,37.5,37.5,37.5h69.4h9.4H65.6z"/>
+<path id="Inner_square" class="st2" d="M-15,450V75h75v37.5h37.5V75h150v37.5H285V75h75v112.5v69.4c-24.4-18.8-60-31.9-93.8-31.9
+	c-82.5,0-150,67.5-150,150c0,26.2,7.5,52.5,20.6,75H-15z"/>
+<path id="Inner_Circle" class="st2" d="M266.2,262.5c-61.9,0-112.5,50.6-112.5,112.5s50.6,112.5,112.5,112.5S378.8,436.9,378.8,375
+	S328.1,262.5,266.2,262.5z"/>
+<polygon id="Hands" class="st1" points="296.2,431.2 247.5,382.5 247.5,300 285,300 285,367.5 322.5,405 "/>
+<g>
+	<path d="M217.5,525h-93.7V193.1H0v-84.4h123.7V0h93.7v108.8H345l-1.9,82.5H217.5C217.5,191.3,217.5,525,217.5,525z M144.4,502.5
+		h46.9V168.8h129.4v-35.6H191.2V20.6H150v112.5H22.5v35.6h125.6v345L144.4,502.5z"/>
+</g>
+</svg>

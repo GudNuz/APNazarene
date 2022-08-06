@@ -335,6 +335,7 @@
     <Content Include="Content\Catagories\Svg\backspace.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\Catagories\Svg\Bird-Bible-Black.svg" />
     <Content Include="Content\Catagories\Svg\Bird-Black.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -431,11 +432,7 @@
     <Content Include="Views\Merchandise\Store.vbhtml" />
     <Content Include="Views\Shared\_Navbar.vbhtml" />
     <Content Include="Views\Shared\_Footer.vbhtml" />
-    <Content Include="Views\Info\Fundraise.vbhtml" />
-    <Content Include="Views\Info\TrackWrestling.vbhtml" />
     <Content Include="Views\Shared\Cards\About\_Brand.vbhtml" />
-    <Content Include="Views\Shared\Cards\About\_Features.vbhtml" />
-    <Content Include="Views\Shared\Cards\About\_Fundraising.vbhtml" />
     <Content Include="Views\Shared\Cards\About\_Links.vbhtml" />
     <Content Include="Views\Shared\Cards\About\_Members.vbhtml" />
     <Content Include="Views\Shared\Cards\About\_OnlineWorship.vbhtml" />

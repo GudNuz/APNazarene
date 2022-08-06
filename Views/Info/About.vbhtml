@@ -6,7 +6,7 @@ End Code
 <div Class="container px-4 px-lg-5">
 
     <!-- Heading Row-->
-    <div Class="row gx-4 gx-lg-5 align-items-end mb-3">
+    <div Class="row gx-4 gx-lg-5 align-items-end mb-auto">
 
         <!-- Brand and description -->
         @Html.Partial("Cards/About/_Brand")
@@ -19,19 +19,20 @@ End Code
     <!-- Content Row-->
     <div class="row gx-1 gx-lg-5">
 
-        <!-- Schedule Card -->
+        <!-- Online Worship Card -->
         @Html.Partial("Cards/About/_OnlineWorship")
 
-        <!-- Fundraising Card -->
+        <!-- Calandar Card -->
         @Html.Partial("Cards/About/_Calendar")
 
-        <!-- Merchandise Card -->
+        <!-- Members Card -->
         @Html.Partial("Cards/About/_Members")
 
     </div>
 
-    <!-- Important Info Card -->
-    <div class="row gx-1 gx-lg-5">
+    <!-- Liks Info Card -->
+    @*<div class="row gx-1 gx-lg-5">
         @Html.Partial("Cards/About/_Links")
-    </div>
+    </div>*@
+
 </div>

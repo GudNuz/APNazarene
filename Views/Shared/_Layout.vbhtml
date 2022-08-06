@@ -101,7 +101,7 @@ End Code
 
 </head>
 
-<body style="background-color: rgba(237, 255, 235, 1.00);">
+<body>
 
     <!-- NavBar -->
     @Html.Partial("_Navbar")

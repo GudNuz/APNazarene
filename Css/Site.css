@@ -13,6 +13,7 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     text-rendering: optimizeLegibility;
+    background-color: #4DAF7C;
 }
 
 
@@ -26,7 +27,7 @@ code {
 
 .btn-primary {
     color: #fff;
-    background-color: rgb(74, 75, 76);
+    background-color: #265039;
     border-color: #3A3A3A;
 }
 
@@ -34,7 +35,7 @@ code {
     .btn-primary:active,
     .btn-primary:hover {
         color: #000000;
-        background-color: #AEAEAE;
+        background-color: #84CBA0;
         border-color: #1E1E1E;
     }
 
@@ -54,21 +55,28 @@ code {
     width: 100%;
 }
 
-/* End Custom */
+/* End BS Custom */
 
 /* Logos */
 .biglogo {
-    height: 300px;
+    height: 256px;
 }
 
 .smalllogo {
+   /* padding-left: 8px;*/
     padding-right: 8px;
     height: 40px;
 }
 
 .smalllogo2 {
+
     padding-left: 8px;
     height: 40px;
+}
+
+.medlogo {
+    padding-right: 8px;
+    height: 60px;
 }
 
 .cardimage {
@@ -121,7 +129,7 @@ footer {
 
 /*Church Contact Page*/
 .ourChurch-box {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;    
     font-weight: 300;
     margin-left: auto;
     margin-right: auto;
@@ -141,6 +149,7 @@ footer {
     }
 
     .ourChurch-box a {
+        text-shadow: .5px .5px 0px black;
         font-weight: 600;
         color: white;
         font-size: 48px;
@@ -151,8 +160,8 @@ footer {
         .ourChurch-box a:active {
             color: #4a4b4c;
         }
-        
-/*Old*/
+
+/*Terms command Policy page stuff*/        
 #myBtn {
     display: none;
     position: fixed;
@@ -173,7 +182,6 @@ footer {
         background-color: #555;
     }
 
-/*Terms command Policy page stuff*/
 .goldGradient {
     background: linear-gradient(to right, #60605F 0%, transparent 100%);
     padding-top: 15px;
@@ -243,3 +251,117 @@ iframe {
     -webkit-transform-origin: 0 0;
     transform-origin: 0 0;
 }
+
+
+/* Bootstrap Screen Size Dependent adjustments */
+
+.myRounded {
+    border-radius: 0;
+    border-color: black;
+    border-width: 1px;
+}
+
+.flatBottom {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #40996D;
+}
+
+.flatTop {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #84CBA0;
+}   
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 575.98px) {
+    .myRounded {
+        border-radius: 3px;
+    }
+
+    .flatBottom {
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+
+    .flatTop {
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }   
+
+    .myvideo {
+        border-radius: 3px;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) {
+
+    .myRounded {
+        border-radius: 3px;
+    }
+
+    .flatBottom {
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+
+    .flatTop {
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    } 
+    .myvideo {
+        border-radius: 3px;
+    }
+ 
+}
+
+/* Medi
+    um devices (tablets, less than 992px) */
+@media (min-width: 991.98px) {
+
+    .myRounded {
+        border-radius: 3px;
+    }
+
+    .flatBottom {
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+
+    .flatTop {
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    } 
+
+    .myvideo {
+        border-radius: 3px;
+    }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1399.98px) {
+
+    .myRounded {
+        border-radius: 3px;
+    }
+
+    .flatBottom {
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+
+    .flatTop {
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+    } 
+
+    .myvideo {
+        border-radius: 3px;
+    }
+
+}
+
+
+

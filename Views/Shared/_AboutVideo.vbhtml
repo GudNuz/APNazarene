@@ -5,12 +5,12 @@
 End Code
 
 <!-- Video Container -->
-<div id="RightContainer" class="col-lg-7 py-2">
+<div id="RightContainer" class="col-lg-7 pt-2 pb-3" >
 
-     <div class="ratio ratio-16x9 rounded-2">
+     <div class="ratio ratio-16x9" >
 
-        <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-4by3 rounded-2">
-            <video class="embed-responsive-item" controls autoplay loop muted>
+        <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-4by3">
+            <video class="myvideo embed-responsive-item" controls autoplay loop muted>
                 <source src="@videoFilename" type="video/mp4">
                 Your browser does not support the video tag.
             </video>

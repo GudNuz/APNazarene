@@ -10,7 +10,7 @@ End Code
      <div class="ratio ratio-16x9" >
 
         <div id="trailer" class="section d-flex justify-content-center embed-responsive embed-responsive-4by3">
-            <video class="myvideo embed-responsive-item" controls autoplay loop muted>
+            <video class="my-video embed-responsive-item" controls autoplay loop muted>
                 <source src="@videoFilename" type="video/mp4">
                 Your browser does not support the video tag.
             </video>

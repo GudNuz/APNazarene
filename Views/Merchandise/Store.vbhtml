@@ -6,7 +6,7 @@ End Code
 <div Class="my-3">
     <h3 class="text-center">
         Merchandise
-        <img class="cardimage" src="~/Content/Catagories/Svg/Merchandise.svg" />
+        <img class="my-card-image" src="~/Content/Catagories/Svg/Merchandise.svg" />
     </h3>
     <h5 class="text-center text-white">Links to resellers with our branded merchandise.</h5>
     <p class="text-center">Sales only run periodically, so check back for the latest information and links.

@@ -70,8 +70,8 @@
         End If
 
         ' Site Images
-        If AttributeName = "BigLogo" Then
-            Return "/Content/Catagories/Svg/AP-Logo-02.svg"
+        If AttributeName = "mybiglogo" Then
+            Return "/Content/Catagories/Svg/Logo1.svg"
         End If
         If AttributeName = "SmallLogo" Then
             Return "/Content/Catagories/Svg/Bird-White.svg"

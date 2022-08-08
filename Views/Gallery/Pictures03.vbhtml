@@ -9,14 +9,14 @@
 
 End Code
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<button onclick="topFunction()" id="my-btn" title="Go to top">Top</button>
 
 <div Class="container px-4 px-lg-5">
 
     <!-- Heading Row-->
     <div Class="row gx-4 gx-lg-5 my-3">
         <h3 class="text-center">
-            <img class="cardimage" src="~/Content/Catagories/Svg/Pictures.svg" />
+            <img class="my-card-image" src="~/Content/Catagories/Svg/Pictures.svg" />
             <span class="text-dark">@catagory:</span><span class="text-light fs-4"> 3</span>
         </h3>
         
@@ -29,7 +29,7 @@ End Code
         <div class="col-3 mb-2">
             <div class="h-100 text-center">
                 <a class="btn btn-danger text-sucess btn-sm group-btn" href="~/Gallery/Gallery">
-                    <img class="backimage" src="~/Content/Catagories/Svg/backspace.svg" />
+                    <img class="my-backimage" src="~/Content/Catagories/Svg/backspace.svg" />
                 </a>
             </div>
         </div>
@@ -124,7 +124,7 @@ End Code
     // Add a "Top" button to page so we can get back to the top of the page.
 
     //Get the button
-    var mybutton = document.getElementById("myBtn");
+    var mybutton = document.getElementById("my-btn");
 
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () { scrollFunction() };

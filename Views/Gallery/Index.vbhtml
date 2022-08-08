@@ -6,7 +6,7 @@ End Code
 <div Class="row gx-4 gx-lg-5 my-3">
     <h3 class="text-center">
         More Links
-        <img class="cardimage" src="~/Content/Catagories/Svg/Links.svg" />
+        <img class="my-card-image" src="~/Content/Catagories/Svg/Links.svg" />
     </h3>
     <p class="text-center">Additional Features.</p>
 </div>
@@ -18,7 +18,7 @@ End Code
     <div class="col-md-3 mb-2">
         <div class="h-100 text-center">
             <a class="btn btn-danger text-sucess btn-sm group-btn" href="~/Info/About">
-                <img class="backimage" src="~/Content/Catagories/Svg/backspace.svg" />
+                <img class="my-backimage" src="~/Content/Catagories/Svg/backspace.svg" />
             </a>
         </div>
     </div>

@@ -9,7 +9,7 @@ End Code
     <div Class="my-3">
         <h3 class="text-center">
             Schedule
-            <img class="cardimage" src="~/Content/Catagories/Svg/Schedule.svg" />
+            <img class="my-card-image" src="~/Content/Catagories/Svg/Schedule.svg" />
         </h3>
     </div>
 

@@ -42,10 +42,10 @@ End Code
         </span>
 
         <!-- Set to show on lg -->
-        <a class="navbar-brand d-none d-lg-inline-block" href="~/Info/About"><img class="smalllogo" src=@smallLogo alt="brand logo">@siteName</a>
+        <a class="navbar-brand d-none d-lg-inline-block" href="~/Info/About"><img class="my-small-logo" src=@smallLogo alt="brand small logo">@siteName</a>
 
         <!-- Set to show on sm -->
-        <a class="navbar-brand d-lg-none d-inline-block w-100" href="~/Info/About">@siteNameShort<img class="smalllogo2" src=@smallLogo alt="brand logo"></a>
+        <a class="navbar-brand d-lg-none d-inline-block w-100" href="~/Info/About">@siteNameShort<img class="my-small-logo-2" src=@smallLogo alt="brand my-small-logo-2"></a>
 
         <!-- Toggle Button -->
         <div class="w-0 text-left ">

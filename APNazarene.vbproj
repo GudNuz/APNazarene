@@ -434,7 +434,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Css\bootstrap.min.css.map" />
-    <Content Include="Artwork\Church of the Nazarene Brand Guide_EN.pdf" />
     <Content Include="Content\Catagories\Icons\APNazarene\site.webmanifest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

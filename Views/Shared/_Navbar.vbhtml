@@ -81,37 +81,7 @@ End Code
             </li>
 
         </ul>
-
-        @*@If Request.IsAuthenticated Then
-
-                @Using Html.BeginForm("LogOff", "Account", FormMethod.Post, New With {.id = "logoutForm", .class = "navbar-right"})
-
-                    @Html.AntiForgeryToken()
-
-                    @<ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item">
-                            <a class="nav-link" href="Manage/Index">Manage</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
-                        </li>
-                    </ul>
-
-                End Using
-
-            Else
-
-                @<ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item">
-                        <a class="nav-link" href="~/Account/Register">Register</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="~/Account/Login">Log In</a>
-                    </li>
-                </ul>
-
-            End If*@
-
+      
     </div>
 
 </nav>

@@ -5,7 +5,7 @@ End Code
 
 <div class="col-lg-5 pb-3">
 
-    <!-- My Big Logo (and Site Name) -->
+    <!-- My Big Logo -->
     <div class="card h-100 bg-transparent my-no-border" style="background-color: transparent;">
         <div class="card-body text-center py-0">
             

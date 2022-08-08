@@ -48,8 +48,8 @@ End Code
         <a class="navbar-brand d-lg-none d-inline-block w-100" href="~/Info/About">@siteNameShort<img class="my-small-logo-2" src=@smallLogo alt="brand my-small-logo-2"></a>
 
         <!-- Toggle Button -->
-        <div class="w-0 text-left ">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="text-left pe-2 pt-1">
+            <button class="navbar-toggler pe-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
@@ -59,7 +59,7 @@ End Code
     <!-- Selection Choices -->
     <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbarToggler">
 
-        <ul class="navbar-nav ms-auto flex-nowrap">
+        <ul class=" ps-4 navbar-nav ms-auto flex-nowrap">
 
             <li class="nav-item">
                 <a class="nav-link @choice01" aria-current="page" href="~/Info/About">About</a>

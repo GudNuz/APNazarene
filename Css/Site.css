@@ -1,9 +1,9 @@
-﻿/* Custom Bootstrap overrides */
-
-/*@import url(//fonts.googleapis.com/css?family=Muli:300,400,600|Inconsolata);*/
+﻿/*@import url(//fonts.googleapis.com/css?family=Muli:300,400,600|Inconsolata);*/
 @import url(//fonts.googleapis.com/css?family=Knockout:300,400,600|Inconsolata);
 
-/* body - Necessary entries for Bootstrap NavBarv */
+/* Custom Bootstrap overrides */
+
+/* Necessary entries for Bootstrap NavBarv */
 body {
     overflow-y: scroll;
     line-height: 1;
@@ -13,43 +13,36 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     text-rendering: optimizeLegibility;
-    background-color: #265039;
+    background-color: #265039; /* Guideline Dark Green */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;      
 }
 
-
-a {
-    color: #7D7E81;
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
 }
 
-code {
-    color: #E01A76;
+a {
+    color: #7D7E81; /* Guideline Gray */
 }
 
 .btn-primary {
     color: white;
-    background-color: #265039;
+    background-color: #40996D; /* Guideline Med Green */
     border-color: #414042;
 }
 
     .btn-primary:focus,
     .btn-primary:active,
     .btn-primary:hover {
-        color: #000000;
-        background-color: #40996D;
-        border-color: #7D7E81;
+        color: white;
+        background-color: #265039; /* Guidleline Dark Green */
+        border-color: #7D7E81; /* Guidleline Med Gray */
     }
-
-/* No Border around the Brand box */
-.noborder {
-    border: none;
-}
-
-.my-bs-light {
-    color: white;
-}
 
 .carousel-inner {
     border-radius: 5px;
@@ -58,9 +51,23 @@ code {
     width: 100%;
 }
 
-/* End BS Custom */
+/* End BootStrap Custom */
 
-/* Logo Spacing and Sizing */
+
+/******************************/
+/****** My Custom stuff  ******/
+/******************************/
+
+/* Unique Carousel ID */
+#my-carousel-control {
+    max-width: 720px;
+}
+
+.my-no-border {
+    border: none;
+}
+
+/* My Logos - Spacing and Sizing */
 
 .my-big-logo {
     height: 300px;
@@ -82,85 +89,45 @@ code {
     height: 60px;
 }
 
-.my-backimage {
-    height: 18px;
-}
-
-#Copyright {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-#CarouselControl {
-    max-width: 720px;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 200px;
-}
-
-/* Define Gradient Heading CSS (used in TOS and Privacy) */
-#myBox {
-    padding: 8px;
-    margin-bottom: 7px;
-    background-color: #60605F;
-    color: black;
-    display: block;
-    text-decoration: none;
-}
-
-.group-btn {
-    min-width: 76px;
-    height: 35px;
-    font-size: 16px;
-}
-
-.wagroup-btn {
-    min-width: 60px;
-    height: 35px;
-    font-size: 16px;
-}
-
-/*Church Contact Page*/
-.ourChurch-box {
-    font-family: 'Lato', sans-serif;    
+/*** Used on Church Contact Page ***/
+.my-box-church {
+    font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
     padding-right: 0;
     font-size: 14px;
-    background-color: #265039;
+    background-color: #4a4b4c; /* Guideline Logo Gray */
     color: white;
-    border:none;
+    border: none;
 }
 
-    .ourChurch-box:hover,
-    .ourChurch-box:focus,
-    .ourChurch-box:active {
-        background-color: #4DAF7C;
-        color: #4a4b4c;
+    .my-box-church:hover,
+    .my-box-church:focus,
+    .my-box-church:active {
+        background-color: #4DAF7C; /* Guideline-Med-Green */
+        color: #4a4b4c; /* Guideline Logo Gray */
     }
 
-    .ourChurch-box a {
+    .my-box-church a {
         text-shadow: .5px .5px 0px black;
         font-weight: 600;
         color: white;
         font-size: 48px;
     }
 
-        .ourChurch-box a:hover,
-        .ourChurch-box a:focus,
-        .ourChurch-box a:active {
-            color: #4a4b4c;
+        .my-box-church a:hover,
+        .my-box-church a:focus,
+        .my-box-church a:active {
+            color: #4a4b4c; /* Guideline Logo Gray */
         }
 
-/*Terms command Policy page stuff*/        
-#my-btn {
+/*** Gallery stuff ***/
+
+/* Used in Gallery Group Auto Top function
+   Must be #ID : Used by JS document.getElementById */
+#my-button {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -176,17 +143,76 @@ footer {
     border-radius: 4px;
 }
 
-    #my-btn:hover {
+    #my-button:hover {
         background-color: #555;
     }
 
-.goldGradient {
-    background: linear-gradient(to right, #60605F 0%, transparent 100%);
-    padding-top: 15px;
-    padding-bottom: 15px;
+/*** Gallery buttons and groups ***/
+
+.my-back-button-image {
+    height: 18px;
 }
 
-.gradientheading {
+.my-group-buttons {
+    min-width: 76px;
+    height: 35px;
+    font-size: 16px;
+}
+
+.my-group-buttons-webart {
+    min-width: 60px;
+    height: 35px;
+    font-size: 16px;
+}
+
+/*** END *** Gallery stuff ***/
+
+/*** My custom card replacements ***/
+
+.my-card {
+    border-radius: 0;
+    border-color: black;
+    border-width: 3px;
+}
+
+.my-card-header {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #265039; /* Guideline Dark Green */
+    color: white;
+}
+
+.my-card-image {
+    padding-right: 8px;
+    padding-top: 0;
+    padding-bottom: 3px;
+    height: 30px;
+}
+
+.my-card-body {  
+    background-color: white;
+    color: black;
+}
+
+.my-card-footer {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #84CBA0; /* Guideline Light Green */
+    color: white;
+}
+/*** END *** My Custom card stuff ***/
+
+/****** TOS & Privacy Policies use this stuff ******/
+.my-box {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #60605F; /* TOS & Privacy Gray */
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.my-gradient-heading {
     width: auto;
     background: linear-gradient(90deg, #60605F, transparent 100%);
     color: black;
@@ -197,7 +223,7 @@ footer {
     font-weight: bold;
 }
 
-.p_div {
+.my-div-spacing {
     width: auto;
     padding: 5px 10px;
     max-width: 100%;
@@ -206,7 +232,7 @@ footer {
     line-height: 18px;
 }
 
-.p_div_bullet:before {
+.my-div-spacing_bullet:before {
     width: auto;
     content: "-";
     padding: 5px 10px;
@@ -216,7 +242,9 @@ footer {
     line-height: 18px;
 }
 
-/* Iframe style for Schedule and Fundraising display */
+/***** END *** TOS & Privacy stuff *****/
+
+/* Iframe style for Schedule and other frame displays */
 div, iframe {
     margin-left: auto;
     margin-right: auto;
@@ -250,43 +278,11 @@ iframe {
     transform-origin: 0 0;
 }
 
+/****** END *** Iframe stuff ******/
 
-/* Bootstrap Screen Size Dependent adjustments */
-
-
-/* My Card replacements */
-
-.my-card {
-    border-radius: 0;
-    border-color: black;
-    border-width: 1px;
-}
-
-.my-card-header {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    background-color: #265039;
-    color: white;
-}
-
-.my-card-image {
-    padding-right: 8px;
-    padding-top: 0;
-    padding-bottom: 3px;
-    height: 30px;
-}
-
-.my-card-body {
-    background-color: white;
-    color: black;
-}
-
-.my-card-footer {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    background-color: #84CBA0;
-    color: white;
-}  
+/*****************************************************************************/
+/* NOTE: Set default PHONE properties above and inneractive properties below */
+/*****************************************************************************/
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (min-width: 575.98px) {

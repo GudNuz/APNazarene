@@ -17,10 +17,10 @@ End Code
     <ul style="list-style-type: none;">
 
         <li>
-            <button class="nav-link noborder bg-transparent text-white py-1" id="newTab" onclick="newTab('https://bw2021.wswebstore.com/store')"><h6>Winning Streak</h6></button>
+            <button class="nav-link my-no-border bg-transparent text-white py-1" id="newTab" onclick="newTab('https://bw2021.wswebstore.com/store')"><h6>Winning Streak</h6></button>
         </li>
         <li>
-            <button class="nav-link noborder bg-transparent text-white py-1" id="newTab" onclick="newTab('https://www.creationstationdesigns.com/waterloowrestling')"><h6>Creation Station</h6></button>
+            <button class="nav-link my-no-border bg-transparent text-white py-1" id="newTab" onclick="newTab('https://www.creationstationdesigns.com/waterloowrestling')"><h6>Creation Station</h6></button>
         </li>
     </ul>
 </nav>

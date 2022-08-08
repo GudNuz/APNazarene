@@ -7,14 +7,14 @@
 End Code
 
 <!-- Carousel for Picture slides -->
-<div id="CarouselControl" class="carousel slide py-2" data-bs-ride="carousel">
+<div id="my-carousel-control" class="carousel slide py-2" data-bs-ride="carousel">
 
     <!-- The slideshow -->
     <div class="carousel-inner shadow" id="CarouselItems"></div>
 
     <!-- Left And right controls -->
-    <a class="carousel-control-prev" href="#CarouselControl" role="button" data-bs-slide="prev"></a>
-    <a class="carousel-control-next" href="#CarouselControl" role="button" data-bs-slide="next"></a>
+    <a class="carousel-control-prev" href="#my-carousel-control" role="button" data-bs-slide="prev"></a>
+    <a class="carousel-control-next" href="#my-carousel-control" role="button" data-bs-slide="next"></a>
 
 </div>
 
@@ -29,13 +29,13 @@ End Code
 
     $('#Previous').click(function (e) {
         e.stopPropagation();
-        $('#CarouselControl').carousel('prev');
+        $('#my-carousel-control').carousel('prev');
         return false;
     });
 
     $('#Next').click(function (e) {
         e.stopPropagation();
-        $('#CarouselControl').carousel('next');
+        $('#my-carousel-control').carousel('next');
         return false;
     });
 

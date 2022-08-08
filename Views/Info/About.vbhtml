@@ -11,8 +11,8 @@ End Code
         <!-- Brand and description -->
         @Html.Partial("Cards/About/_Brand")
 
-        <!-- About Video -->
-        @Html.Partial("_AboutVideo")
+        <!-- Welcome Video -->
+        @Html.Partial("_WelcomeVideo")
 
     </div>
 

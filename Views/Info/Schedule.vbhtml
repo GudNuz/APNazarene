@@ -19,13 +19,11 @@ End Code
     <!-- Results Sheet -->
     <p class="text-center">
         <a href="@results" target="_blank" type="link" rel="noopener noreferrer nofollow">
-            <span class="text-dark">Results Sheet</span>
+            <span class="text-white">Results Sheet</span>
         </a>
     </p>
 
-    <!-- Embedded Link -->
-    
-        <iframe class="container-fluid px-0 pb-4" src="@schedule" style="border: solid 1px #777; max-width: 800px" height="600" frameborder="0" scrolling="auto"></iframe>
-    
+        <!-- Embedded Link -->    
+        <iframe class="container-fluid px-0 pb-4" src="@schedule" style="border: solid 1px #777; max-width: 800px" height="600" frameborder="0" scrolling="auto"></iframe>    
 
 </container>

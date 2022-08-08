@@ -53,11 +53,11 @@ End Code
     <link rel="apple-touch-icon" sizes="180x180" href="~/Content/Catagories/Icons/APNazarene/apple-touch-icon.png">
     <link rel="apple-touch-icon" type="image/pgn" href="~/Content/Images/Site/Catagories/Icons/APNazarene/android-chrome-192x192.png" />
     <link rel="icon" type="image/png" sizes="512x512" href="~/Content/Catagories/Icons/APNazarene/android-chrome-512x512.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/~/Content/Catagories/Icons/APNazarene/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/~/Content/Catagories/Icons/APNazarene/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/Content/Catagories/Icons/APNazarene/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/Content/Catagories/Icons/APNazarene/favicon-32x32.png">
     <link rel="icon" type="image/x-icon" href="~/Content/Catagories/Icons/APNazarene/favicon.ico" />
     <link rel="icon" type="image/x-icon" href="~/Content/Catagories/Icons/APNazarene/favicon.v1.ico" />
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest" href="~/Content/Catagories/Icons/APNazarene/site.webmanifest">
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lato:300, 400, 500, 600' rel='stylesheet' type='text/css'>

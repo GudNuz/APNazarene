@@ -9,7 +9,7 @@
 
 End Code
 
-<button onclick="topFunction()" id="my-btn" title="Go to top">Top</button>
+<button onclick="topFunction()" id="my-button" title="Go to top">Top</button>
 
 <div Class="container px-4 px-lg-5">
 
@@ -17,7 +17,7 @@ End Code
     <div Class="row gx-4 gx-lg-5 my-3">
         <h3 class="text-center">
             <img class="my-card-image" src="~/Content/Catagories/Svg/Artwork.svg" />
-            <span class="text-dark">@catagory:</span><span class="text-light fs-4"> .Zip</span>
+            <span class="text-white">@catagory:</span><span class="text-light fs-4"> .Zip</span>
         </h3>
         <p class="text-center text-light">Master Bulldog .Zip files for printing.</p>
         <p class="text-center text-light">Contains .AI .EPS, .PDF, .SVG, and .PNG formats.</p>
@@ -27,9 +27,9 @@ End Code
 
             <!-- Back Button -->
             <div class="col-2 mb-2">
-                <div class="h-100 text-center">
-                    <a class="btn btn-danger text-sucess btn-sm wagroup-btn" href="~/Gallery/Gallery">
-                        <img class="my-backimage" src="~/Content/Catagories/Svg/backspace.svg" />
+                <div class="h-100 text-center text-white">
+                    <a class="btn btn-danger text-sucess btn-sm my-group-buttons-webart" href="~/Gallery/Gallery">
+                        <img class="my-back-button-image" src="~/Content/Catagories/Svg/backspace.svg" />
                     </a>
                 </div>
             </div>
@@ -37,28 +37,28 @@ End Code
             <!-- Group 01 Button -->
             <div class="col-2 mb-2">
                 <div class="h-100 w-100 text-center">
-                    <a class="btn btn-primary btn-sm wagroup-btn" href="~/Gallery/WebArtSVG">.Svg</a>
+                    <a class="btn btn-primary btn-sm my-group-buttons-webart" href="~/Gallery/WebArtSVG">.Svg</a>
                 </div>
             </div>
 
             <!-- Group 02 Button -->
             <div class="col-2 mb-2">
                 <div class="h-100 w-100 text-center">
-                    <a class="btn btn-primary btn-sm wagroup-btn" href="~/Gallery/WebArtPNG">.Png</a>
+                    <a class="btn btn-primary btn-sm my-group-buttons-webart" href="~/Gallery/WebArtPNG">.Png</a>
                 </div>
             </div>
 
             <!-- Group 03 Button -->
             <div class="col-2 mb-2">
                 <div class="h-100 w-100 text-center">
-                    <a class="btn btn-primary btn-sm wagroup-btn" href="~/Gallery/WebArtJPG">.Jpg</a>
+                    <a class="btn btn-primary btn-sm my-group-buttons-webart" href="~/Gallery/WebArtJPG">.Jpg</a>
                 </div>
             </div>
 
             <!-- Group 04 Button -->
             <div class="col-2 mb-2">
                 <div class="h-100 w-100 text-center">
-                    <a class="btn btn-dark btn-sm wagroup-btn" href="~/Gallery/WebArtZip">.Zip</a>
+                    <a class="btn btn-dark btn-sm my-group-buttons-webart" href="~/Gallery/WebArtZip">.Zip</a>
                 </div>
             </div>
 
@@ -95,7 +95,7 @@ End Code
     // Add a "Top" button to page so we can get back to the top of the page.
 
     //Get the button
-    var mybutton = document.getElementById("my-btn");
+    var mybutton = document.getElementById("my-button");
 
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () { scrollFunction() };

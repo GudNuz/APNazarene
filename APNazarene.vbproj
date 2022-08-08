@@ -517,7 +517,7 @@
     <Content Include="Views\Links\WebArtJPG.vbhtml" />
     <Content Include="Views\Gallery\WebArtEPS.vbhtml" />
     <Content Include="Views\Gallery\WebArtZIP.vbhtml" />
-    <Content Include="Views\Shared\_AboutVideo.vbhtml" />
+    <Content Include="Views\Shared\_WelcomeVideo.vbhtml" />
     <Content Include="Views\Shared\Cards\About\_Calendar.vbhtml" />
   </ItemGroup>
   <ItemGroup>

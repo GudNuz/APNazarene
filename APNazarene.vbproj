@@ -361,6 +361,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Catagories\Svg\Bird-Bible-Black.svg" />
+    <Content Include="Content\Catagories\Svg\Bird-Bible-White.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Catagories\Svg\Bird-Black.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -397,6 +400,14 @@
     </Content>
     <Content Include="Content\Catagories\Svg\Logo1.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Svg\Logo2.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Svg\Logo3.svg" />
+    <Content Include="Content\Catagories\Svg\Logo4.svg" />
+    <Content Include="Content\Catagories\Svg\Logo5.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Catagories\Svg\Merchandise.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

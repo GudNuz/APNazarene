@@ -71,7 +71,7 @@
 
         ' Site Images
         If AttributeName = "mybiglogo" Then
-            Return "/Content/Catagories/Svg/Logo1.svg"
+            Return "/Content/Catagories/Svg/Logo5.svg"
         End If
         If AttributeName = "SmallLogo" Then
             Return "/Content/Catagories/Svg/Bird-White.svg"

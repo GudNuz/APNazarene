@@ -1,5 +1,9 @@
 ﻿@code
-    ' Keep Current Menu Selection Active (Highlighted)
+
+    Dim siteName As String = "Avon Park Nazarene Church"
+    Dim siteNameShort As String = "Avon Park Naz"
+
+    ' Keep current sselecion active
     Dim choice01 As String = ""
     Dim choice02 As String = ""
     Dim choice03 As String = ""
@@ -26,14 +30,9 @@
         choice06 = "active"
     End If
 
-    Dim siteName As String = SiteHelpers.GetSiteInfo("SiteName")
-    Dim siteNameShort As String = SiteHelpers.GetSiteInfo("SiteNameShort")
-    ' Page Images
-    Dim smallLogo = SiteHelpers.GetSiteInfo("SmallLogo")
 End Code
 
-<nav class="navbar navbar-expand-lg navbar-dark border-bottom box-shadow mb-sm-0 px-sm-0 mb-lg-3 px-lg-2" style="background-color: #4A4B4C;">
-    <!--mb-sm-0 px-sm-0-->
+<nav class="navbar navbar-expand-lg navbar-dark border-bottom box-shadow mb-sm-0 px-sm-0 mb-lg-3 px-lg-2 my-bg-gray">   
     <div class="d-flex flex-grow-1">
 
         <!-- Hidden Space -->
@@ -42,10 +41,10 @@ End Code
         </span>
 
         <!-- Set to show on lg -->
-        <a class="navbar-brand d-none d-lg-inline-block" href="~/Info/About"><img class="my-small-logo" src=@smallLogo alt="brand small logo">@siteName</a>
-
+        <a class="navbar-brand d-none d-lg-inline-block" href="~/Info/About"><img class="my-sm-bird" src="~/Content/Catagories/Svg/Bird-White.svg" alt="Bird Image">@siteName</a>
+        
         <!-- Set to show on sm -->
-        <a class="navbar-brand d-lg-none d-inline-block w-100" href="~/Info/About">@siteNameShort<img class="my-small-logo-2" src=@smallLogo alt="brand my-small-logo-2"></a>
+        <a class="navbar-brand d-lg-none d-inline-block w-100" href="~/Info/About">@siteNameShort<img class="my-sm-bird-2" src="~/Content/Catagories/Svg/Bird-White.svg" alt="Bird Image"></a>
 
         <!-- Toggle Button -->
         <div class="text-left pe-2 pt-1">

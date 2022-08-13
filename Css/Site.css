@@ -4,6 +4,7 @@
 /* Custom Bootstrap overrides */
 
 /* Necessary entries for Bootstrap NavBarv */
+
 body {
     overflow-y: scroll;
     line-height: 1;
@@ -58,39 +59,62 @@ a {
 /****** My Custom stuff  ******/
 /******************************/
 
-/* Unique Carousel ID */
-#my-carousel-control {
-    max-width: 720px;
+/* Guideline Replacement Colors */
+
+/* Gray */
+.my-bg-gray {
+    background-color: #4a4b4c;
 }
+
+/* Dark Green */
+my-bg-dk-green {
+    background-color: #265039;
+}
+
+/* END - Guideline Replacement Colors */
+
 
 .my-no-border {
     border: none;
 }
 
-/* My Logos - Spacing and Sizing */
+/* My SVG Images - Spacing and Sizing */
 
-.my-big-logo {
+.my-ap-logo {
     height: 300px;
 }
 
-.my-small-logo {   
+.my-sm-bird {   
     padding-right: 8px;
     height: 40px;
 }
 
-.my-small-logo-2 {
+.my-sm-bird-2 {
 
     padding-left: 8px;
     height: 40px;
 }
 
-.my-med-logo {
+.my-cross {
     padding-right: 8px;
     height: 60px;
 }
 
+.my-bird-bible-logo {
+    padding-right: 8px;
+    height: 150px;
+}
+
+.my-contact {
+height: 200px;
+}
+
+.my-jesus-fish {
+    width: 300px;
+}
+
 /*** Used on Church Contact Page ***/
-.my-box-church {
+.my-card-church {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     margin-left: auto;
@@ -103,23 +127,23 @@ a {
     border: none;
 }
 
-    .my-box-church:hover,
-    .my-box-church:focus,
-    .my-box-church:active {
+    .my-card-church:hover,
+    .my-card-church:focus,
+    .my-card-church:active {
         background-color: #4DAF7C; /* Guideline-Med-Green */
         color: #4a4b4c; /* Guideline Logo Gray */
     }
 
-    .my-box-church a {
+    .my-card-church a {
         text-shadow: .5px .5px 0px black;
         font-weight: 600;
         color: white;
         font-size: 48px;
     }
 
-        .my-box-church a:hover,
-        .my-box-church a:focus,
-        .my-box-church a:active {
+        .my-card-church a:hover,
+        .my-card-church a:focus,
+        .my-card-church a:active {
             color: #4a4b4c; /* Guideline Logo Gray */
         }
 
@@ -166,41 +190,6 @@ a {
 }
 
 /*** END *** Gallery stuff ***/
-
-/*** My custom card replacements ***/
-
-.my-card {
-    border-radius: 0;
-    border-color: black;
-    border-width: 3px;
-}
-
-.my-card-header {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    background-color: #265039; /* Guideline Dark Green */
-    color: white;
-}
-
-.my-card-image {
-    padding-right: 8px;
-    padding-top: 0;
-    padding-bottom: 3px;
-    height: 30px;
-}
-
-.my-card-body {  
-    background-color: white;
-    color: black;
-}
-
-.my-card-footer {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    background-color: #84CBA0; /* Guideline Light Green */
-    color: white;
-}
-/*** END *** My Custom card stuff ***/
 
 /****** TOS & Privacy Policies use this stuff ******/
 .my-box {
@@ -280,6 +269,49 @@ iframe {
 
 /****** END *** Iframe stuff ******/
 
+/*** My custom card replacements ***/
+
+.my-card {
+    border-radius: 0;
+    border-color: black;
+    border-width: 3px;
+}
+
+.my-card-header {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #265039; /* Guideline Dark Green */
+    color: white;
+}
+
+.my-card-image {
+    padding-right: 8px;
+    padding-top: 0;
+    padding-bottom: 3px;
+    height: 30px;
+}
+
+.my-card-body {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: white;
+    color: black;
+}
+
+.my-card-footer {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #84CBA0; /* Guideline Light Green */
+    color: white;
+}
+/*** END *** My Custom card stuff ***/
+
 /*****************************************************************************/
 /* NOTE: Set default PHONE properties above and inneractive properties below */
 /*****************************************************************************/
@@ -287,21 +319,21 @@ iframe {
 /* X-Small devices (portrait phones, less than 576px) */
 @media (min-width: 575.98px) {
     .my-card {
-        border-radius: 3px;
+        border-radius: 0px;
     }       
 
     .my-card-header {
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
     }   
 
     .my-card-footer {
-        border-bottom-left-radius: 3px;
-        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
     }
 
     .my-video {
-        border-radius: 3px;
+        border-radius: 0px;
     }
 
 }
@@ -320,7 +352,7 @@ iframe {
 
     .my-card-footer {
         border-bottom-left-radius: 3px;
-        border-bottom-right-radius: 3px;
+        border-bottom-right-radius: 2px;
     }
 
     .my-video {

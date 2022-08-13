@@ -1,17 +1,12 @@
-﻿@code
-    ' Get Image Info
-    Dim mybiglogo As String = SiteHelpers.GetSiteInfo("mybiglogo")
-End Code
+﻿<div class="col-lg-5 pb-3">
 
-<div class="col-lg-5 pb-3">
-
-    <!-- My Big Logo -->
+    <!-- AP Logo -->
     <div class="card h-100 bg-transparent my-no-border" style="background-color: transparent;">
         <div class="card-body text-center py-0">
             
             <!-- Show  my Big Logo -->
-            <img src=@mybiglogo class="img-fluid my-big-logo border-0" alt="Responsive My Big Logo" />
-                        
+            <img src="~/Content/Catagories/Logos/AP-Logo.svg" class="img-fluid my-ap-logo border-0" alt="Responsive AP Logo" />
+            
         </div>
     </div>
 

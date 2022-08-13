@@ -15,16 +15,16 @@
 End Code
 
 <!-- Column Container -->
-<div class="container mb-lg-3 col-md-4 lh-sm text-center p-0">
+<div class="container mb-lg-3 col-md-4 lh-sm text-center pt-3">
 
     <!-- Contact Info box -->
-    <div class="my-card mx-auto p-0 border border-2 border-dark shadow-lg" style="max-width: 24rem;">
+    <div class="my-card mx-auto p-0 border border-3 border-dark shadow" style="max-width: 24rem;">
         <div class="my-card-body p-0">
 
             <!-- Our Church -->
-            <div class="my-box-church px-0 py-2">
+            <div class="my-card-church px-0 py-2">
                 <a href="http://apnazarene.org/" class="nav-link text-decoration-underline" target="_blank">
-                    <img class="my-med-logo" src="~/Content/Catagories/Svg/Cross-White.svg" />Our Church
+                    <img class="my-cross" src="~/Content/Catagories/Svg/Cross-White.svg" />Our Church
                 </a>
                 <p class="card-text" style="font-size: 18px; font-weight: 500;">is filled with<br />caring and loving people.</p>
             </div>
@@ -45,7 +45,7 @@ End Code
             </div>
 
             <!-- Contacts* -->
-            <div class="my-box-church" style="background-color: #8E774D; text-shadow: .25px .25px 0 black; ">
+            <div class="my-card-church" style="background-color: #8E774D; text-shadow: .25px .25px 0 black; ">
 
                 <!-- Pastors -->
                 <div class="ms-5 mb-0 ps-5 pt-3">
@@ -86,7 +86,7 @@ End Code
 
             <!--Seal -->
             <div class="h-100 w-100 py-2">
-                <img class="img-fluid my-big-logo" src="~/Content/Catagories/Svg/Seal-English-Gold.svg" />
+                <img class="img-fluid my-ap-logo" src="~/Content/Catagories/Svg/Seal-English-Gold.svg" />
             </div>
 
             <!--Salutations -->

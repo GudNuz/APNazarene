@@ -3,10 +3,11 @@
     ViewData("Title") = ViewData("Message")
 End Code
 
-<div Class="container px-4 px-lg-5">
+<!-- Container -->
+<div Class="container px-sm-2 px-md-3 px-lg-3 px-xl-3">
 
-    <!-- Heading Row-->
-    <div Class="row gx-4 gx-lg-5 align-items-end mb-auto pb-1">
+    <!-- Content Row - Heading -->
+    <div Class="row gx-4 gx-lg-5 align-items-end mb-auto pb-sm-1 pb-md-1 pb-lg-0">
 
         <!-- Brand and description -->
         @Html.Partial("Cards/About/_Brand")
@@ -16,8 +17,10 @@ End Code
 
     </div>
 
-    <!-- Content Row-->
-    <div class="row gx-1 gx-lg-5">
+    <!-- Content Row - Cards -->
+    <div class="row gx-sm-1 gx-md-3 gx-lg-5 gx-xl-5">
+
+        <!-- Card Columns -->
 
         <!-- Online Worship Card -->
         @Html.Partial("Cards/About/_OnlineWorship")
@@ -30,15 +33,15 @@ End Code
 
     </div>
 
-    <!--SVG File -->
+    <!--Content Row - Jesus Fish -->
     <div class="row gx-1 gx-lg-5">
 
         <!-- Column Container -->
-        <div class="container col-md-4 mb-4 lh-sm">
+        <div class="container col-md-4 mb-4 lh-sm pb-sm-0 pb-md-0 pb-lg-2">
 
             <!-- Container Box -->
             <div class="my-card h-100 text-center">
-                <img style="width: 300px;" src="~/Content/Catagories/Svg/Jesus-Fish-White.svg" />
+                <img class="my-jesus-fish" src="~/Content/Catagories/Svg/Jesus-Fish-White.svg" />
             </div>
 
         </div>

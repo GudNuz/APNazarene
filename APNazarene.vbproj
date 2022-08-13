@@ -198,6 +198,9 @@
     <Content Include="Content\Catagories\Gallery\Pictures\07\placeholder.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\Catagories\Gallery\Videos\01\000002.mp4">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Catagories\Gallery\Videos\01\placeholder.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -354,6 +357,9 @@
     <Content Include="Content\Catagories\Logos\BlueSun.svg" />
     <Content Include="Content\Catagories\PageImages\900x800-image-01.jpg" />
     <Content Include="Content\Catagories\PageImages\hate.gif" />
+    <Content Include="Content\Catagories\Svg\AP-Logo-Round-Church-Label-White-02.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\Catagories\Svg\Artwork.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -372,6 +378,9 @@
     </Content>
     <Content Include="Content\Catagories\Svg\BlueSun.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Catagories\Svg\Contact-Us.svg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Catagories\Svg\Cross-Black.svg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -398,15 +407,7 @@
     <Content Include="Content\Catagories\Svg\Links.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\Catagories\Svg\Logo1.svg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Catagories\Svg\Logo2.svg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Content\Catagories\Svg\Logo3.svg" />
-    <Content Include="Content\Catagories\Svg\Logo4.svg" />
-    <Content Include="Content\Catagories\Svg\Logo5.svg">
+    <Content Include="Content\Catagories\Logos\AP-Logo.svg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Content\Catagories\Svg\Merchandise.svg">
@@ -475,7 +476,6 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\sitescripts.js" />
     <Content Include="Views\Shared\Lockout.vbhtml" />
-    <Content Include="Views\Info\About.vbhtml" />
     <Content Include="Views\Info\Contact.vbhtml" />
     <Content Include="Views\Info\Schedule.vbhtml" />
     <Content Include="Views\Info\TOS.vbhtml" />
@@ -484,7 +484,6 @@
     <Content Include="Views\Shared\_Navbar.vbhtml" />
     <Content Include="Views\Shared\_Footer.vbhtml" />
     <Content Include="Views\Shared\Cards\About\_Brand.vbhtml" />
-    <Content Include="Views\Shared\Cards\About\_Links.vbhtml" />
     <Content Include="Views\Shared\Cards\About\_Members.vbhtml" />
     <Content Include="Views\Shared\Cards\About\_OnlineWorship.vbhtml" />
     <Content Include="Views\Shared\Cards\Gallery\_Pictures.vbhtml" />
@@ -492,7 +491,6 @@
     <Content Include="Views\Shared\Cards\Gallery\_WebArt.vbhtml" />
     <Content Include="Views\Shared\Cards\_Contact.vbhtml" />
     <Content Include="Views\Shared\Cards\_Designer.vbhtml" />
-    <Content Include="Views\Gallery\Index.vbhtml" />
     <Content Include="Views\Gallery\Gallery.vbhtml" />
     <Content Include="Views\Gallery\Pictures01.vbhtml" />
     <Content Include="Views\Gallery\Pictures02.vbhtml" />
@@ -518,6 +516,10 @@
     <Content Include="Views\Gallery\WebArtZIP.vbhtml" />
     <Content Include="Views\Shared\_WelcomeVideo.vbhtml" />
     <Content Include="Views\Shared\Cards\About\_Calendar.vbhtml" />
+    <Content Include="Views\Shared\Cards\Contact\_OurChurch.vbhtml" />
+    <Content Include="Views\Shared\Cards\Contact\_Salutations.vbhtml" />
+    <Content Include="Views\Shared\Cards\Contact\_ContactUs.vbhtml" />
+    <Content Include="Views\Info\About.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />

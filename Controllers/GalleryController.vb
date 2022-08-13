@@ -1,11 +1,11 @@
 ﻿Public Class GalleryController
     Inherits System.Web.Mvc.Controller
-    Function Index() As ActionResult
-        ViewData("Message") = "Gallery"
-        ViewData("PageHeader") = ViewData("Message")
-        ViewData("PageTitle") = ViewData("Message")
-        Return View(Gallery)
-    End Function
+    'Function Index() As ActionResult
+    '    ViewData("Message") = "Gallery"
+    '    ViewData("PageHeader") = ViewData("Message")
+    '    ViewData("PageTitle") = ViewData("Message")
+    '    Return View(Gallery)
+    'End Function
     Function Gallery() As ActionResult
         ViewData("Message") = "Gallery"
         ViewData("PageHeader") = ViewData("Message")

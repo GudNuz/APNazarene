@@ -1,7 +1,7 @@
 ﻿@code
     Dim altText As String = ViewData("PageHeader")
     Dim folder As String = ViewData("Message")
-    Dim videoFilename As String = "/Content/Catagories/Gallery/Videos/01/000001.mp4#t=2.5"
+    Dim videoFilename As String = "/Content/Catagories/Gallery/Videos/01/000002.mp4#t=2.5"
 End Code
 
 <div class="col-lg-7 pt-0 pb-3">

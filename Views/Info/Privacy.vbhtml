@@ -5,7 +5,7 @@
 End Code
 
 <!-- Privacy Policy -->
-<div style="font-family: 'Knockout 31 4r', HelveticaNeue-CondensedBold, Helvetica, Arial, sans-serif; font-weight: 400; color: black; margin-left: auto; margin-right: auto; text-align: center; max-width: 90%;">
+<div style="background-color: #4DAF7C; font-weight: 400; color: black; margin-left: auto; margin-right: auto; text-align: center; max-width: 90%;">
 
     <h1 class="my-box">Privacy Policy</h1>
 
@@ -193,4 +193,4 @@ End Code
 </div>
 
 <!-- Contact Info -->
-@Html.Partial("Cards/_Contact")
+@Html.Partial("Contact")

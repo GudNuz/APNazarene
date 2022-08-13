@@ -17,7 +17,7 @@ End Code
 <!-- Column Container -->
 <div class="container col-sm-12 col-md-12 col-lg-4 mb-sm-0 mb-md-4 mb-lg-4 mb-xl-4 lh-sm pt-0">
 
-    <div class=" my-card text-white my-0 pt-3 border border-3 border-dark shadow" style="background-color: white;">
+    <div class=" my-card text-white my-0 pt-3 border border-1 border-dark shadow" style="background-color: white;">
         <div class="my-card-body lh-sm text-center pt-2" style="background-color: white; color:black;">
 
             <!-- Contact Box -->

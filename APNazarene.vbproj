@@ -489,7 +489,6 @@
     <Content Include="Views\Shared\Cards\Gallery\_Pictures.vbhtml" />
     <Content Include="Views\Shared\Cards\Gallery\_Videos.vbhtml" />
     <Content Include="Views\Shared\Cards\Gallery\_WebArt.vbhtml" />
-    <Content Include="Views\Shared\Cards\_Contact.vbhtml" />
     <Content Include="Views\Shared\Cards\_Designer.vbhtml" />
     <Content Include="Views\Gallery\Gallery.vbhtml" />
     <Content Include="Views\Gallery\Pictures01.vbhtml" />

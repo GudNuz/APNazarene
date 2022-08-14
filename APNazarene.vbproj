@@ -511,7 +511,6 @@
     <Content Include="Scripts\bootstrap.min.js.map" />
     <Content Include="Scripts\jquery-3.6.0.min.map" />
     <Content Include="Views\Links\WebArtJPG.vbhtml" />
-    <Content Include="Views\Gallery\WebArtEPS.vbhtml" />
     <Content Include="Views\Gallery\WebArtZIP.vbhtml" />
     <Content Include="Views\Shared\_WelcomeVideo.vbhtml" />
     <Content Include="Views\Shared\Cards\About\_Calendar.vbhtml" />

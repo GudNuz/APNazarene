@@ -1,15 +1,4 @@
-﻿@Code
-
-    Dim catagory As String = "WebArt"
-    Dim group As String = "zip"
-    Dim extension As String = ".zip"
-
-    Dim folder As String = "/Content/Catagories/Gallery/" + catagory + "/" + group + "/"
-    Dim filecount As Integer = SiteHelpers.ImageCount("Gallery/" + catagory + "/" + group + "/", extension)
-
-End Code
-
-<button onclick="topFunction()" id="my-button" title="Go to top">Top</button>
+﻿<button onclick="topFunction()" id="my-button" title="Go to top">Top</button>
 
 <div Class="container px-4 px-lg-5">
 
@@ -17,9 +6,9 @@ End Code
     <div Class="row gx-4 gx-lg-5 my-3">
         <h3 class="text-center">
             <img class="my-card-image" src="~/Content/Catagories/Svg/Artwork.svg" />
-            <span class="text-white">@catagory:</span><span class="text-light fs-4"> .Zip</span>
+            <span class="text-white">WebArt:</span><span class="text-light fs-4"> .Zip</span>
         </h3>
-        <p class="text-center text-light">Master .Zip files for printing.</p>
+        <p class="text-center text-light">Master Bulldog .Zip files for printing.</p>
         <p class="text-center text-light">Contains .AI .EPS, .PDF, .SVG, and .PNG formats.</p>
 
         <!-- Button Row-->
@@ -65,29 +54,117 @@ End Code
         </div>
 
         <!-- Image List -->
-        <div class="row gx-1 gx-lg-5" id="imagelist">
+        <div class="row gx-1 gx-lg-5">
 
-            <div class="col-12 py-1">
-                <a onclick="download1()" style="margin-right: auto; margin-left: auto; width: 280px; border: solid 2px; border-left-color: dimgray; border-top-color: dimgray;" class="nav-link bg-light text-center text-black py-2 rounded" id="newTab" href="#">
-
-                    <img style="height: 160px;" src="~/Content/Catagories/Gallery/WebArt/Zip/Logo-Master-Black.svg" /> <h6>Download<br />Logo-Master-Black.zip</h6>
+            <!-- AP Logo Round -->
+            <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1">
+                <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 py-2" onclick="download_1()" id="newTab" href="#">
+                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/AP-Logo-Round.svg"/><br /><h6>Download<br />AP-Logo-Round.zip</h6>
                 </a>
             </div>
 
-            <div>
-                <a onclick="download2()" style="margin-right: auto; margin-left: auto; width: 280px; border: solid 2px; border-left-color: dimgray; border-top-color: dimgray;" class="nav-link bg-light text-center text-black py-2 rounded" href="#">
-
-                    <img style="height: 160px;" src="~/Content/Catagories/Gallery/WebArt/Zip/Logo-Master-White.svg" /> <h6>Download<br />Logo-Master-White.zip</h6>
+            <!-- Bird Black -->
+            <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1">
+                <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 py-2" onclick="download_2()" id="newTab" href="#">
+                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/Bird-Black.svg"/><br /><h6>Download<br />Bird-Black.zip</h6>
                 </a>
+            </div>
+
+            <!-- Bird White -->
+            <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1">
+                <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 py-2" onclick="download_3()" id="newTab" href="#">
+                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/Bird-White.svg"/><br /><h6>Download<br />Bird-White.zip</h6>
+                </a>
+            </div>
+
+            <!-- Bird-Bible Black -->
+            <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1">
+                <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 py-2" onclick="download_4()" id="newTab" href="#">
+                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/Bird-Bible-Black.svg"/><br /><h6>Download<br />Bird-Bible-Black.zip</h6>
+                </a>
+            </div>
+
+            <!-- Bird-Bible White -->
+            <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1">
+                <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 py-2" onclick="download_5()" id="newTab" href="#">
+                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/Bird-Bible-White.svg"/><br /><h6>Download<br />Bird-Bible-White.zip</h6>
+                </a>
+            </div>
+
+            <!-- Seal English Gold -->
+            <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1">
+                <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 py-2" onclick="download_6()" id="newTab" href="#">
+                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/Seal-English-Gold.svg"/><br /><h6>Download<br />Seal-English-Gold.zip</h6>
+                </a>
+            </div>
+
+            <!-- Jesus-Fish -->
+            <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1" ">
+                <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 pt-2 pb-5" onclick="download_7()" id="newTab" href="#">
+                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/Jesus-Fish.svg"/><br /><h6>Download<br />Jesus-Fish.zip</h6>
+                </a>                
             </div>
 
         </div>
-
     </div>
 </div>
 
 <script>
-    @*createFolderList("@folder", "@filecount", "@extension");*@
+    function download_1() {
+        var txt;
+        var r = confirm("OK to Download 'AP-Logo-Round.zip'?");
+        if (r == true) {
+            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/AP-Logo-Round.zip")
+        } else { }
+    }
+
+    function download_2() {
+        var txt;
+        var r = confirm("OK to Download 'Bird-Black.zip'?");
+        if (r == true) {
+            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/Bird-Black.zip")
+        } else { }
+    }
+
+    function download_3() {
+        var txt;
+        var r = confirm("OK to Download 'Bird-White.zip'?");
+        if (r == true) {
+            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/Bird-White.zip")
+        } else { }
+    }
+
+    function download_4() {
+        var txt;
+        var r = confirm("OK to Download 'Bird-Bible-Black.zip'?");
+        if (r == true) {
+            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/Bird-Bible-Black.zip")
+        } else { }
+    }
+
+    function download_5() {
+        var txt;
+        var r = confirm("OK to Download 'Bird-Bible-White.zip'?");
+        if (r == true) {
+            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/Bird-Bible-White.zip")
+        } else { }
+    }
+    
+    function download_6() {
+        var txt;
+        var r = confirm("OK to Download 'Seal-English-Gold.zip'?");
+        if (r == true) {
+            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/Seal-English-Gold.zip")
+        } else { }
+    }
+
+    function download_7() {
+        var txt;
+        var r = confirm("OK to Download 'Jesus-Fish.zip'?");
+        if (r == true) {
+            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/Jesus-Fish.zip")
+        } else { }
+    }
 </script>
 
 <script>
@@ -114,22 +191,4 @@ End Code
         document.documentElement.scrollTop = 0;
     }
 
-</script>
-
-<script>
-    function download1() {
-        var txt;
-        var r = confirm("OK to Download 'BD-Logo-Master-Black.zip'?");
-        if (r == true) {
-            window.open("https://illustrate.net/APNazarene/Content/Catagories/Gallery/WebArt/Zip/BD-Logo-Master-Black.zip")
-        } else {}
-    }
-
-    function download2() {
-        var txt;
-        var r = confirm("OK to Download 'BD-Logo-Master-White.zip'?");
-        if (r == true) {
-            window.open("https://illustrate.net/APNazarene/Content/Catagories/Gallery/WebArt/Zip/BD-Logo-Master-White.zip")
-        } else {}
-    }
 </script>

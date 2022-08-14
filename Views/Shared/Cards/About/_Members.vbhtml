@@ -13,13 +13,13 @@
         </div>
 
         <!-- Body of Box -->
-        <div class="my-card-body w-100">
+        <div class="my-card-body bg-white w-100">
             <p class="card-text px-3 py-4">Please stop by our Membership links.</p>
         </div>
 
         <!-- More Info part of Box -->
         <div class="my-card-footer w-100 text-center py-3">
-            <button style="margin-right: auto; margin-left: auto;" class="nav-link btn btn-primary btn-sm my-group-buttons text-nowrap" id="newTab" onclick="newTab('https://apnaz.churchtrac.com/')">
+            <button class="my-auto-margin nav-link btn btn-primary btn-sm my-group-buttons text-nowrap" id="newTab" onclick="newTab('https://apnaz.churchtrac.com/')">
                 <h6>More Info</h6>
             </button>
         </div>

@@ -77,7 +77,10 @@ my-bg-dk-green {
 .my-no-border {
     border: none;
 }
-
+.my-auto-margin {
+    margin-left: auto;
+    margin-right: auto;
+}
 /* My SVG Images - Spacing and Sizing */
 
 .my-ap-logo {
@@ -111,6 +114,14 @@ height: 200px;
 
 .my-jesus-fish {
     width: 300px;
+}
+.my-download-image {
+    /*height: 200px;*/
+    width: 260px;
+}
+.my-download-fish {
+    height: 200px;
+    width: 260px;
 }
 
 /*** Used on Church Contact Page ***/

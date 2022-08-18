@@ -13,7 +13,7 @@ End Code
         @Html.Partial("Cards/About/_Brand")
 
         <!-- Welcome Video -->
-        @Html.Partial("_WelcomeVideo")
+        @Html.Partial("Cards/About/_WelcomeVideo")
 
     </div>
 

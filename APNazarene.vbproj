@@ -512,7 +512,7 @@
     <Content Include="Scripts\jquery-3.6.0.min.map" />
     <Content Include="Views\Links\WebArtJPG.vbhtml" />
     <Content Include="Views\Gallery\WebArtZIP.vbhtml" />
-    <Content Include="Views\Shared\_WelcomeVideo.vbhtml" />
+    <Content Include="Views\Shared\Cards\About\_WelcomeVideo.vbhtml" />
     <Content Include="Views\Shared\Cards\About\_Calendar.vbhtml" />
     <Content Include="Views\Shared\Cards\Contact\_OurChurch.vbhtml" />
     <Content Include="Views\Shared\Cards\Contact\_Salutations.vbhtml" />

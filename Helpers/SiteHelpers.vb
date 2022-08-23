@@ -1,4 +1,6 @@
-﻿Public Class SiteHelpers
+﻿Imports System.IO
+
+Public Class SiteHelpers
 
     ' ' ImageCount() 
     '********************
@@ -11,14 +13,12 @@
         Dim Count As Integer = 1
         Try
             If HttpContext.Current.Request.IsLocal Then
-                Count = IO.Directory.GetFiles("D:\Projects\Repos\APNazarene\" + folder, "*" + extension).Length()
+                Count = Directory.GetFiles("D:\Projects\Repos\APNazarene" + folder, "*" + extension).Length()
             Else
-                Count = IO.Directory.GetFiles("h:\root\home\mikish-001\www\illustrate\APNazarene\" + folder, "*" + extension).Length()
+                Count = Directory.GetFiles("h:\root\home\mikish-001\www\illustrate\APNazarene" + folder, "*" + extension).Length()
             End If
         Catch ex As Exception
             Return Count
-            'MsgBox("Image Directory Not Found", MsgBoxStyle.Critical)
-
         End Try
 
         Return Count

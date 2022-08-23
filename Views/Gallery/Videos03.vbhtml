@@ -3,7 +3,7 @@
     ViewData("Title") = ViewData("PageTitle")
 
     Dim folder As String = "/Content/Gallery/Videos/03/"
-    Dim extension As String = ".jpg"
+    Dim extension As String = ".mp4"
     Dim filecount As Integer = SiteHelpers.ImageCount(folder, extension)
 
 End Code

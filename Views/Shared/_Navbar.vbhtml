@@ -32,7 +32,7 @@
 
 End Code
 
-<nav class="navbar navbar-expand-lg navbar-dark border-bottom box-shadow mb-sm-0 px-sm-0 mb-lg-3 px-lg-2 my-bg-gray">   
+<nav class="navbar navbar-expand-lg navbar-dark border-bottom box-shadow mb-3 my-0 mb-sm-3 px-sm-0 mb-lg-3 px-lg-2 my-bg-gray">   
     <div class="d-flex flex-grow-1">
 
         <!-- Hidden Space -->
@@ -41,10 +41,10 @@ End Code
         </span>
 
         <!-- Set to show on lg -->
-        <a class="navbar-brand d-none d-lg-inline-block" href="~/Info/About"><img class="my-sm-bird" src="~/Content/Catagories/Svg/Bird-White.svg" alt="Bird Image">@siteName</a>
+        <a class="navbar-brand d-none d-lg-inline-block" href="~/Info/About"><img class="my-sm-bird" src="~/Content/Svg/Bird-White.svg" alt="Bird Image">@siteName</a>
         
         <!-- Set to show on sm -->
-        <a class="navbar-brand d-lg-none d-inline-block w-100" href="~/Info/About">@siteNameShort<img class="my-sm-bird-2" src="~/Content/Catagories/Svg/Bird-White.svg" alt="Bird Image"></a>
+        <a class="navbar-brand d-lg-none d-inline-block w-100" href="~/Info/About">@siteNameShort<img class="my-sm-bird-2" src="~/Content/Svg/Bird-White.svg" alt="Bird Image"></a>
 
         <!-- Toggle Button -->
         <div class="text-left pe-2 pt-1">

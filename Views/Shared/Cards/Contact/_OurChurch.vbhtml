@@ -6,7 +6,7 @@
 
             <!-- Our Church -->
             <a class="text-decoration-underline my-bg-gray text-white" style="font-size: 36px;" href="http://apnazarene.org/" target="_blank">
-                <img class="my-cross" src="~/Content/Catagories/Svg/Cross-White.svg" />Our Church
+                <img class="my-cross" src="~/Content/Svg/Cross-White.svg" />Our Church
             </a>
             <p class="card-text" style="font-size: 18px; font-weight: 500;">is filled with<br />caring and loving people.</p>
 

@@ -1,6 +1,7 @@
 ﻿@code
-    Dim copyright As String = "Copyright © " + Date.Now.Year.ToString + " by " + SiteHelpers.GetSiteInfo("SiteName")
-    Dim siteName = SiteHelpers.GetSiteInfo("SiteName")
+    Dim siteName = "Avon Park Nazarene Church"
+    Dim copyright As String = "Copyright © " + Date.Now.Year.ToString + " " + siteName
+
 
     ' Keep Current Menu Selection Active (Highlighted)
     Dim choice01 As String = ""
@@ -52,7 +53,7 @@ End Code
                     </li>
                     <li class="nav-item text-light">
                         <a class="nav-link @choice02" style="font-size: 12px;" href="~/Info/Contact">Contact Us</a>
-                    </li>                   
+                    </li>
                     <li class="nav-item text-light">
                         <a class="nav-link @choice07" style="font-size: 12px;" href="~/Info/Privacy">Privacy Policy</a>
                     </li>

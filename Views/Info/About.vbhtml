@@ -1,6 +1,5 @@
 ﻿@Code
-    ' Get Title and Site Name
-    ViewData("Title") = ViewData("Message")
+    ViewData("Title") = ViewData("PageTitle")
 End Code
 
 <!-- Container -->
@@ -41,7 +40,7 @@ End Code
 
             <!-- Container Box -->
             <div class="my-card h-100 text-center">
-                <img class="my-jesus-fish" src="~/Content/Catagories/Svg/Jesus-Fish-White.svg" />
+                <img class="my-jesus-fish" src="~/Content/Svg/Jesus-Fish-White.svg" />
             </div>
 
         </div>

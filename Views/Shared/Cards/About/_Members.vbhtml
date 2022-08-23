@@ -7,7 +7,7 @@
         <!-- Header portion of Box -->
         <div class="my-card-header w-100 py-2 px-3">
 
-            <h2><img class="my-card-image" src="~/Content/Catagories/Svg/People-White.svg" />Our Members...</h2>
+            <h2><img class="my-card-image" src="~/Content/Svg/People-White.svg" />Our Members...</h2>
             <p class="card-text fw-bolder">The Members Info Area.</p>
 
         </div>

@@ -1,18 +1,13 @@
 ﻿@code
+    
+    Dim siteEmailContact As String = "apnazarene@apnazarene.org"
+    Dim phone1 As String = "863-453-4851"
+ 
+    Dim siteGoogleMapURL As String = "https://www.google.com/maps/place/Avon+Park+Church+of+the+Nazarene/@27.5953222,-81.5091936,15z/data=!4m5!3m4!1s0x0:0x3b2af50abe7f8f95!8m2!3d27.5953222!4d-81.5091936"
+    Dim siteFacebookPageURL As String = "https://www.facebook.com/APNazarene/"
+    
+End Code 
 
-    Dim siteName As String = SiteHelpers.GetSiteInfo("SiteName")
-    Dim siteGoogleMapURL As String = SiteHelpers.GetSiteInfo("SiteGoogleMapURL")
-    Dim siteFacebookPageURL As String = SiteHelpers.GetSiteInfo("SiteFacebookPageURL")
-    Dim siteContact As String = SiteHelpers.GetSiteInfo("SiteContact")
-    Dim siteEmailContact As String = SiteHelpers.GetSiteInfo("SiteEmailContact")
-    Dim address1 As String = SiteHelpers.GetSiteInfo("Address1")
-    Dim address2 As String = SiteHelpers.GetSiteInfo("Address2")
-    Dim phone1 As String = SiteHelpers.GetSiteInfo("Phone1")
-
-    ' Page Images
-    Dim smallLogo = SiteHelpers.GetSiteInfo("SmallLogo")
-
-End Code
 
 <!-- Column Container -->
 <div class="container col-sm-12 col-md-12 col-lg-4 mb-sm-0 mb-md-4 mb-lg-4 mb-xl-4 lh-sm pt-0">
@@ -44,7 +39,7 @@ End Code
                     <!-- Pastors -->
                     <div class="pt-3 pb-2 text-center">
 
-                        <img class="my-contact" src="~/Content/Catagories/Svg/Contact-Us.svg" />
+                        <img class="my-contact" src="~/Content/Svg/Contact-Us.svg" />
 
                     </div>
 
@@ -54,14 +49,14 @@ End Code
                         <!-- Facebook Page Button -->
                         <div class="pt-1">
                             <button style="border: none; background-color: transparent; width: 200px; border-radius:8px; padding-left: 20px;text-align: left;" onclick="newTab('@siteFacebookPageURL')">
-                                <img style="height:32px; width:32px;" src="~/Content/Catagories/Svg/FB-Square.Svg" /> <b>Facebook Page</b>
+                                <img style="height:32px; width:32px;" src="~/Content/Svg/FB-Square.Svg" /> <b>Facebook Page</b>
                             </button>
                         </div>
 
                         <!--Google Page Button -->
                         <div class="py-1">
                             <button style="border: none; background-color: transparent; width: 200px; border-radius: 8px; padding-left: 20px; text-align: left;" onclick="newTab('@siteGoogleMapURL')">
-                                <img style="height:32px; width:32px;" src="~/Content/Catagories/Svg/Google-Square.svg" /> <b>Google Maps</b>
+                                <img style="height:32px; width:32px;" src="~/Content/Svg/Google-Square.svg" /> <b>Google Maps</b>
                             </button>
                         </div>
 

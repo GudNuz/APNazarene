@@ -1,4 +1,6 @@
-﻿@code
+﻿@Code
+    ViewData("Title") = ViewData("PageTitle")
+
     Dim results As String = "https://docs.google.com/spreadsheets/d/e/2PACX-1vS_FHJRKx7Vc7gDNGCtn0KsIDN0Y9nzbrKRAmG_cSIlAjRDhzzTX_9EuSdxDj3nI3c6NBM6v0n3i-zf/pubhtml?widget=true&amp;headers=false"
     Dim schedule As String = "https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&mode=AGENDA&src=d2F0ZXJsb29idWxsZG9nd3Jlc3RsaW5nQGdtYWlsLmNvbQ&color=%23039BE5"
 End Code
@@ -9,7 +11,7 @@ End Code
     <div Class="my-3">
         <h3 class="text-center">
             Schedule
-            <img class="my-card-image" src="~/Content/Catagories/Svg/Schedule.svg" />
+            <img class="my-card-image" src="~/Content/Svg/Schedule.svg" />
         </h3>
     </div>
 
@@ -23,7 +25,7 @@ End Code
         </a>
     </p>
 
-        <!-- Embedded Link -->    
-        <iframe class="container-fluid px-0 pb-4" src="@schedule" style="border: solid 1px #777; max-width: 800px" height="600" frameborder="0" scrolling="auto"></iframe>    
+    <!-- Embedded Link -->
+    <iframe class="container-fluid px-0 pb-4" src="@schedule" style="border: solid 1px #777; max-width: 800px" height="600" frameborder="0" scrolling="auto"></iframe>
 
 </container>

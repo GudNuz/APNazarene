@@ -5,7 +5,7 @@
         <div class="card-body text-center py-0">
             
             <!-- Show  my Big Logo -->
-            <img src="~/Content/Catagories/Logos/AP-Logo.svg" class="img-fluid my-ap-logo border-0" alt="Responsive AP Logo" />
+            <img src="~/Content/Logos/AP-Logo.svg" class="img-fluid my-ap-logo border-0" alt="Responsive AP Logo" />
             
         </div>
     </div>

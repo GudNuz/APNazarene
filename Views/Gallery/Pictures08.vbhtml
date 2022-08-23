@@ -1,11 +1,10 @@
 ﻿@Code
 
-    Dim catagory As String = "Pictures"
-    Dim group As String = "08"
-    Dim extension As String = ".jpg"
+    ViewData("Title") = ViewData("PageTitle")
 
-    Dim folder As String = "/Content/Catagories/Gallery/" + catagory + "/" + group + "/"
-    Dim filecount As Integer = SiteHelpers.ImageCount("Gallery/" + catagory + "/" + group + "/", extension)
+    Dim folder As String = "/Content/Gallery/Pictures/08/"
+    Dim extension As String = ".jpg"
+    Dim filecount As Integer = SiteHelpers.ImageCount(folder, extension)
 
 End Code
 
@@ -16,8 +15,8 @@ End Code
     <!-- Heading Row-->
     <div Class="row gx-4 gx-lg-5 my-3">
         <h3 class="text-center">
-            <img class="my-card-image" src="~/Content/Catagories/Svg/Pictures.svg" />
-            <span class="text-white">@catagory:</span><span class="text-light fs-4"> 8</span>
+            <img class="my-card-image" src="~/Content/Svg/Pictures.svg" />
+            <span class="text-white">Pictures:</span><span class="text-light fs-4"> 8</span>
         </h3>
         
     </div>
@@ -29,7 +28,7 @@ End Code
         <div class="col-3 mb-2">
             <div class="h-100 text-center text-white">
                 <a class="btn btn-danger text-sucess btn-sm my-group-buttons" href="~/Gallery/Gallery">
-                    <img class="my-back-button-image" src="~/Content/Catagories/Svg/backspace.svg" />
+                    <img class="my-back-button-image" src="~/Content/Svg/backspace.svg" />
                 </a>
             </div>
         </div>
@@ -107,7 +106,7 @@ End Code
     <!-- Image List -->
     <div class="row gx-1 gx-lg-5" id="imagelist">
         <h4 class="text-center"> No Pictures have been posted to this group!</h4>
-        <img src="~/Content/Catagories/PageImages/hate.gif" />
+        <img src="~/Content/PageImages/empty.gif" />
         <!-- Script places stuff here -->
     </div>
 

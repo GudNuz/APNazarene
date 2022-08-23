@@ -1,9 +1,9 @@
 ﻿@code  
 
-'Dim siteDesigner As String = SiteHelpers.GetSiteInfo("SiteDesigner")
-'Dim siteEmailDesigner As String = SiteHelpers.GetSiteInfo("SiteEmailDesigner")
+'Dim siteDesigner As String = "The Mikish Group"
+'Dim siteEmailDesigner As String = "Mikish.Vaughn@Gmail.com"
 
 '' Page Images
-'Dim designerLogo = SiteHelpers.GetSiteInfo("SiteDesignerLogo")
+'Dim designerLogo = "/Content/Svg/BlueSun.svg"
 
 End Code

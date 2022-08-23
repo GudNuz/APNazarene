@@ -1,11 +1,4 @@
-﻿/*@import url(//fonts.googleapis.com/css?family=Muli:300,400,600|Inconsolata);*/
-@import url(//fonts.googleapis.com/css?family=Knockout:300,400,600|Inconsolata);
-
-/* Custom Bootstrap overrides */
-
-/* Necessary entries for Bootstrap NavBarv */
-
-body {
+﻿body {
     overflow-y: scroll;
     line-height: 1;
     padding-top: 0;

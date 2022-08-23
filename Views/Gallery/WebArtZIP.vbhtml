@@ -1,14 +1,18 @@
-﻿<button onclick="topFunction()" id="my-button" title="Go to top">Top</button>
+﻿@code
+    ViewData("Title") = ViewData("PageTitle")
+End Code
+
+<button onclick="topFunction()" id="my-button" title="Go to top">Top</button>
 
 <div Class="container px-4 px-lg-5">
 
     <!-- Heading Row-->
     <div Class="row gx-4 gx-lg-5 my-3">
         <h3 class="text-center">
-            <img class="my-card-image" src="~/Content/Catagories/Svg/Artwork.svg" />
+            <img class="my-card-image" src="~/Content/Svg/Artwork.svg" />
             <span class="text-white">WebArt:</span><span class="text-light fs-4"> .Zip</span>
         </h3>
-        <p class="text-center text-light">Master Bulldog .Zip files for printing.</p>
+        <p class="text-center text-light">Masters .Zip files for printing.</p>
         <p class="text-center text-light">Contains .AI .EPS, .PDF, .SVG, and .PNG formats.</p>
 
         <!-- Button Row-->
@@ -18,7 +22,7 @@
             <div class="col-2 mb-2">
                 <div class="h-100 text-center text-white">
                     <a class="btn btn-danger text-sucess btn-sm my-group-buttons-webart" href="~/Gallery/Gallery">
-                        <img class="my-back-button-image" src="~/Content/Catagories/Svg/backspace.svg" />
+                        <img class="my-back-button-image" src="~/Content/Svg/backspace.svg" />
                     </a>
                 </div>
             </div>
@@ -59,49 +63,49 @@
             <!-- AP Logo Round -->
             <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1">
                 <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 py-2" onclick="download_1()" id="newTab" href="#">
-                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/AP-Logo-Round.svg"/><br /><h6>Download<br />AP-Logo-Round.zip</h6>
+                    <img class="my-download-image" src="/Content/Gallery/WebArt/Zip/AP-Logo-Round.svg"/><br /><h6>Download<br />AP-Logo-Round.zip</h6>
                 </a>
             </div>
 
             <!-- Bird Black -->
             <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1">
                 <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 py-2" onclick="download_2()" id="newTab" href="#">
-                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/Bird-Black.svg"/><br /><h6>Download<br />Bird-Black.zip</h6>
+                    <img class="my-download-image" src="/Content/Gallery/WebArt/Zip/Bird-Black.svg"/><br /><h6>Download<br />Bird-Black.zip</h6>
                 </a>
             </div>
 
             <!-- Bird White -->
             <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1">
                 <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 py-2" onclick="download_3()" id="newTab" href="#">
-                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/Bird-White.svg"/><br /><h6>Download<br />Bird-White.zip</h6>
+                    <img class="my-download-image" src="/Content/Gallery/WebArt/Zip/Bird-White.svg"/><br /><h6>Download<br />Bird-White.zip</h6>
                 </a>
             </div>
 
             <!-- Bird-Bible Black -->
             <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1">
                 <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 py-2" onclick="download_4()" id="newTab" href="#">
-                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/Bird-Bible-Black.svg"/><br /><h6>Download<br />Bird-Bible-Black.zip</h6>
+                    <img class="my-download-image" src="/Content/Gallery/WebArt/Zip/Bird-Bible-Black.svg"/><br /><h6>Download<br />Bird-Bible-Black.zip</h6>
                 </a>
             </div>
 
             <!-- Bird-Bible White -->
             <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1">
                 <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 py-2" onclick="download_5()" id="newTab" href="#">
-                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/Bird-Bible-White.svg"/><br /><h6>Download<br />Bird-Bible-White.zip</h6>
+                    <img class="my-download-image" src="/Content/Gallery/WebArt/Zip/Bird-Bible-White.svg"/><br /><h6>Download<br />Bird-Bible-White.zip</h6>
                 </a>
             </div>
 
             <!-- Seal English Gold -->
             <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1">
                 <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 py-2" onclick="download_6()" id="newTab" href="#">
-                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/Seal-English-Gold.svg"/><br /><h6>Download<br />Seal-English-Gold.zip</h6>
+                    <img class="my-download-image" src="/Content/Gallery/WebArt/Zip/Seal-English-Gold.svg"/><br /><h6>Download<br />Seal-English-Gold.zip</h6>
                 </a>
             </div>
 
             <!-- Jesus-Fish -->
             <div class="container col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-0 p-1" ">
                 <a class="my-auto-margin nav-link bg-light text-center text-black py-2 border border-2 border-dark rounded shadow px-2 pt-2 pb-5" onclick="download_7()" id="newTab" href="#">
-                    <img class="my-download-image" src="/Content/Catagories/Gallery/WebArt/Zip/Jesus-Fish.svg"/><br /><h6>Download<br />Jesus-Fish.zip</h6>
+                    <img class="my-download-image" src="/Content/Gallery/WebArt/Zip/Jesus-Fish.svg"/><br /><h6>Download<br />Jesus-Fish.zip</h6>
                 </a>                
             </div>
 
@@ -114,7 +118,7 @@
         var txt;
         var r = confirm("OK to Download 'AP-Logo-Round.zip'?");
         if (r == true) {
-            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/AP-Logo-Round.zip")
+            window.open("http://APNazarene.illustrate.net/Content/Gallery/WebArt/Zip/AP-Logo-Round.zip")
         } else { }
     }
 
@@ -122,7 +126,7 @@
         var txt;
         var r = confirm("OK to Download 'Bird-Black.zip'?");
         if (r == true) {
-            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/Bird-Black.zip")
+            window.open("http://APNazarene.illustrate.net/Content/Gallery/WebArt/Zip/Bird-Black.zip")
         } else { }
     }
 
@@ -130,7 +134,7 @@
         var txt;
         var r = confirm("OK to Download 'Bird-White.zip'?");
         if (r == true) {
-            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/Bird-White.zip")
+            window.open("http://APNazarene.illustrate.net/Content/Gallery/WebArt/Zip/Bird-White.zip")
         } else { }
     }
 
@@ -138,7 +142,7 @@
         var txt;
         var r = confirm("OK to Download 'Bird-Bible-Black.zip'?");
         if (r == true) {
-            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/Bird-Bible-Black.zip")
+            window.open("http://APNazarene.illustrate.net/Content/Gallery/WebArt/Zip/Bird-Bible-Black.zip")
         } else { }
     }
 
@@ -146,7 +150,7 @@
         var txt;
         var r = confirm("OK to Download 'Bird-Bible-White.zip'?");
         if (r == true) {
-            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/Bird-Bible-White.zip")
+            window.open("http://APNazarene.illustrate.net/Content/Gallery/WebArt/Zip/Bird-Bible-White.zip")
         } else { }
     }
     
@@ -154,7 +158,7 @@
         var txt;
         var r = confirm("OK to Download 'Seal-English-Gold.zip'?");
         if (r == true) {
-            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/Seal-English-Gold.zip")
+            window.open("http://APNazarene.illustrate.net/Content/Gallery/WebArt/Zip/Seal-English-Gold.zip")
         } else { }
     }
 
@@ -162,7 +166,7 @@
         var txt;
         var r = confirm("OK to Download 'Jesus-Fish.zip'?");
         if (r == true) {
-            window.open("http://APNazarene.illustrate.net/Content/Catagories/Gallery/WebArt/Zip/Jesus-Fish.zip")
+            window.open("http://APNazarene.illustrate.net/Content/Gallery/WebArt/Zip/Jesus-Fish.zip")
         } else { }
     }
 </script>

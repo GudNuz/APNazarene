@@ -2,7 +2,7 @@
     <div class="card h-100">
         <div class="card-body w-100">
             <h2 class="card-title text-black">
-                <img class="my-card-image pe-2" src="~/Content/Catagories/Svg/Videos.svg" />Videos</h2>
+                <img class="my-card-image pe-2" src="~/Content/Svg/Videos.svg" />Videos</h2>
             <p class="card-text">Videos we've collected.</p>
         </div>
         <div class="py-2 my-card-footer w-100 text-center">

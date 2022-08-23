@@ -7,7 +7,7 @@
         <!-- Header portion of Box -->
         <div class="my-card-header w-100 py-2 ps-3 pe-sm-3">
 
-            <h2><img class="my-card-image" src="~/Content/Catagories/Svg/Schedule-White.svg" /> Our Calendar</h2>
+            <h2><img class="my-card-image" src="~/Content/Svg/Schedule-White.svg" /> Our Calendar</h2>
             <p class="card-text fw-bolder">Check for our latest schedule.</p>
 
         </div>

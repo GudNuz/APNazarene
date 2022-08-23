@@ -1,6 +1,9 @@
-﻿function newTab(tabURL) {
+﻿//***********************************************//
+//  Function used to open Web Page in new Tab    //
+//***********************************************//
+function newTab(tabURL) {
     let newWindowTab = window.open(tabURL);
-}
+};
 
 //***********************************************//
 //  Create Folder List of File Items             //
@@ -25,8 +28,8 @@ function createFolderList(folderURL, filecount, extension) {
 
                 // Display Video
                 htmlstring += "<div class='container col-lg-6 mb-0 p-1 h-100 bg-transparent rounded'>" +
-                    "<video width='100%' controls >" +
-                    "<source src='" + filename + "#t = 0.5' type='video/mp4'>" +
+                    "<video width='100%' controls autoplay muted>" +
+                    "<source src='" + filename + "#t = 2.5' type='video/mp4'>" +
                     "</video>" +
                     "</div>";
             } else {

@@ -1,8 +1,9 @@
 ﻿@code
+    Dim siteURL As String = "http://APNazarene.Illustrate.Net"
     Dim altText As String = ViewData("PageHeader")
-    Dim folder As String = ViewData("Message")
-    Dim imgCount As Integer = SiteHelpers.ImageCount(folder, ".jpg")
-    Dim imageLocation As String = SiteHelpers.GetImageLocation() + folder + "/"
+    Dim imageLocation As String = siteURL + "/Content/About/"
+    Dim imgCount As Integer = SiteHelpers.ImageCount("Content/About/", ".jpg")
+
 
 End Code
 

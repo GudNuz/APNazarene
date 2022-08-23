@@ -1,11 +1,10 @@
 ﻿@Code
 
-    Dim catagory As String = "WebArt"
-    Dim group As String = "Png"
-    Dim extension As String = ".png"
+    Dim Title = ViewData("PageTitle")
 
-    Dim folder As String = "/Content/Catagories/Gallery/" + catagory + "/" + group + "/"
-    Dim filecount As Integer = SiteHelpers.ImageCount("Gallery/" + catagory + "/" + group + "/", extension)
+    Dim folder As String = "/Content/Gallery/WebArt/Png/"
+    Dim extension As String = ".png"
+    Dim filecount As Integer = SiteHelpers.ImageCount(folder, extension)
 
 End Code
 
@@ -16,10 +15,10 @@ End Code
     <!-- Heading Row-->
     <div Class="row gx-4 gx-lg-5 my-3">
         <h3 class="text-center">
-            <img class="my-card-image" src="~/Content/Catagories/Svg/Artwork.svg" />
-            <span class="text-white">@catagory:</span><span class="text-light fs-4"> Png</span>
+            <img class="my-card-image" src="~/Content/Svg/Artwork.svg" />
+            <span class="text-white">WebArt:</span><span class="text-light fs-4"> Png</span>
         </h3>
-        <p class="text-center text-light">A collection Bulldog images used by us.</p>
+        <p class="text-center text-light">A collection images used by us.</p>
     </div>
 
     <!-- Button Row-->
@@ -29,7 +28,7 @@ End Code
         <div class="col-2 mb-2">
             <div class="h-100 text-center text-white">
                 <a class="btn btn-danger text-sucess btn-sm my-group-buttons-webart" href="~/Gallery/Gallery">
-                    <img class="my-back-button-image" src="~/Content/Catagories/Svg/backspace.svg" />
+                    <img class="my-back-button-image" src="~/Content/Svg/backspace.svg" />
                 </a>
             </div>
         </div>

@@ -1,7 +1,5 @@
-﻿@code
-    Dim siteName As String = SiteHelpers.GetSiteInfo("SiteName")
-    Dim SiteDesignerURL As String = "https://mikish.com"
-    Dim SiteDesigner As String = "The Mikish Group"
+﻿@Code
+    ViewData("Title") = ViewData("PageTitle")
 End Code
 
 <!-- Privacy Policy -->

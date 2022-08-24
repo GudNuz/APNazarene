@@ -32,7 +32,7 @@
 
 End Code
 
-<nav class="navbar navbar-expand-lg navbar-dark border-bottom box-shadow mb-3 my-0 mb-sm-3 px-sm-0 mb-lg-3 px-lg-2 my-bg-gray">   
+<nav class="navbar navbar-expand-lg navbar-dark border-bottom box-shadow mb-0 my-0 mb-sm-3 px-sm-0 mb-lg-3 px-lg-2 my-bg-gray">   
     <div class="d-flex flex-grow-1">
 
         <!-- Hidden Space -->

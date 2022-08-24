@@ -3,10 +3,10 @@
 End Code
 
 <!-- Container -->
-<div Class="container px-sm-2 px-md-3 px-lg-3 px-xl-3">
+<div Class="container px-0 px-sm-2 px-md-3">
 
     <!-- Content Row - Heading -->
-    <div Class="row gx-4 gx-lg-5 align-items-end mb-auto pb-sm-1 pb-md-1 pb-lg-0">
+    <div Class="row gx-0 gx-lg-5 align-items-end mb-auto pb-sm-1 pb-md-1 pb-lg-0">
 
         <!-- Brand and description -->
         @Html.Partial("Cards/About/_Brand")
@@ -17,7 +17,7 @@ End Code
     </div>
 
     <!-- Content Row - Cards -->
-    <div class="row gx-sm-1 gx-md-3 gx-lg-5 gx-xl-5">
+    <div class="row gx-0 gx-sm-0 gx-md-3 gx-lg-5 gx-xl-5">
 
         <!-- Card Columns -->
 
@@ -33,7 +33,7 @@ End Code
     </div>
 
     <!--Content Row - Jesus Fish -->
-    <div class="row gx-1 gx-lg-5">
+    <div class="row gx-0 gx-lg-5">
 
         <!-- Column Container -->
         <div class="container col-md-4 mb-4 lh-sm pb-sm-0 pb-md-0 pb-lg-2">
